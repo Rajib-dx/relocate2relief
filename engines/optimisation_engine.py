@@ -4,6 +4,7 @@ import numpy as np
 import geopandas as gpd
 import pulp
 from shapely.geometry import LineString
+from engines.road_routing import road_route
 
 DATA_PROCESSED = "data/processed"
 risk_file = os.path.join(DATA_PROCESSED, "wayanad_risk_layer.gpkg")
@@ -79,7 +80,7 @@ for i in I:
             src_geom = reloc_sources.loc[i].geometry.centroid
             dst_geom = safe_destinations.loc[j].geometry.centroid
             
-            flow_line = LineString([src_geom, dst_geom])
+            flow_line = road_route(src_geom, dst_geom)
             relocation_flows.append({
                 "geometry": flow_line,
                 "from_cell": reloc_sources.loc[i, "cell_id"],
@@ -110,3 +111,4 @@ print(f"\n--- Optimization Complete ---")
 print(f"Total movement paths generated: {len(relocation_flows)}")
 print(f"Flow vectors saved to: {flows_output}")
 print(f"Plan summary saved to: {plan_json}")
+print(flows_gdf.columns)

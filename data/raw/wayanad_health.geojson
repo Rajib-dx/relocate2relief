@@ -1,228 +1,3712 @@
 {
-"type": "FeatureCollection",
-"name": "wayanad_health",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "element": "node", "id": 2000118622, "amenity": "hospital", "name": "Community Health Centre Porunnanore" }, "geometry": { "type": "Point", "coordinates": [ 76.0048247, 11.7510286 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 4834362654, "amenity": "hospital", "name": "PBM Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.1596653, 11.6570597 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5273068839, "amenity": "hospital", "name": "Parls Dental Clinic" }, "geometry": { "type": "Point", "coordinates": [ 76.260006, 11.6621376 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5273267725, "amenity": "clinic", "name": "Alfa hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.2627656, 11.6658814 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5273465231, "amenity": "hospital", "name": "Palliyal Dental" }, "geometry": { "type": "Point", "coordinates": [ 76.0836235, 11.604897 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5274879292, "amenity": "clinic", "name": "whites multi speciality dental clinic" }, "geometry": { "type": "Point", "coordinates": [ 76.0711032, 11.7383439 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5274891888, "amenity": "hospital", "name": "social health center" }, "geometry": { "type": "Point", "coordinates": [ 76.070615, 11.7380883 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5274933955, "amenity": "hospital", "name": "navodaya hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0736781, 11.7387609 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5275245883, "amenity": "hospital", "name": "Public health subcentre" }, "geometry": { "type": "Point", "coordinates": [ 76.1201928, 11.7425872 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5275245905, "amenity": "clinic", "name": "Mathews Homeo clinic" }, "geometry": { "type": "Point", "coordinates": [ 76.1194075, 11.7411555 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 5276849449, "amenity": "hospital", "name": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI" }, "geometry": { "type": "Point", "coordinates": [ 76.0405901, 11.5510242 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 6953307936, "amenity": "hospital", "name": "Shrisha Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.1646844, 11.7934335 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 6953935603, "amenity": "hospital", "name": "Victory Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.2572086, 11.6602708 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 6956345382, "amenity": "hospital", "name": "Leo Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0853072, 11.6045193 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 6956365498, "amenity": "hospital", "name": "K J Medical Trust Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.088562, 11.6295388 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 6956427934, "amenity": "clinic", "name": "Kripa Nursing Home" }, "geometry": { "type": "Point", "coordinates": [ 76.083893, 11.6150825 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 6957302260, "amenity": "hospital", "name": "M.E.S. Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.2572546, 11.6616689 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7130228002, "amenity": "hospital", "name": "Family Health Centre Meppadi" }, "geometry": { "type": "Point", "coordinates": [ 76.130717, 11.5584994 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7398810590, "amenity": "hospital", "name": "Community Health Caenter, Meenanagadi" }, "geometry": { "type": "Point", "coordinates": [ 76.1678844, 11.6645151 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7462625817, "amenity": "hospital", "name": "Community Health Center Pulpally" }, "geometry": { "type": "Point", "coordinates": [ 76.1651668, 11.7942969 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7470718257, "amenity": "hospital", "name": "Taluk Hospital, Sulthan Bathery" }, "geometry": { "type": "Point", "coordinates": [ 76.2634851, 11.6586103 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7479173997, "amenity": "hospital", "name": "Family Health centre  Edavaka" }, "geometry": { "type": "Point", "coordinates": [ 75.9764867, 11.7764224 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7484197306, "amenity": "clinic", "name": "Meppadi Govt.Homoeo Dispensary" }, "geometry": { "type": "Point", "coordinates": [ 76.1342805, 11.5529974 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7502483751, "amenity": "hospital", "name": "Govt. Homoeo Dispensary Kolery" }, "geometry": { "type": "Point", "coordinates": [ 76.1624716, 11.7041382 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7513040511, "amenity": "hospital", "name": "Family Health Centre Cheeral" }, "geometry": { "type": "Point", "coordinates": [ 76.316114, 11.610521 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7515391433, "amenity": "hospital", "name": null }, "geometry": { "type": "Point", "coordinates": [ 76.3222925, 11.6045773 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7515413006, "amenity": "hospital", "name": "district ayurvedic hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0813997, 11.6171614 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7520961468, "amenity": "clinic", "name": null }, "geometry": { "type": "Point", "coordinates": [ 76.2662158, 11.6734305 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7528708427, "amenity": "hospital", "name": "Tribal Medical Unit, Vythiri" }, "geometry": { "type": "Point", "coordinates": [ 76.0384745, 11.5486243 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7531535068, "amenity": "clinic", "name": null }, "geometry": { "type": "Point", "coordinates": [ 76.0824293, 11.6098436 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963258, "amenity": "clinic", "name": "Gokulam Sree Multi Speciality Ayurveda Clinic" }, "geometry": { "type": "Point", "coordinates": [ 76.141641, 11.651072 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963259, "amenity": "hospital", "name": "Vismaya Hospital & Diabetes Centre" }, "geometry": { "type": "Point", "coordinates": [ 76.2562594, 11.6606403 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963260, "amenity": "hospital", "name": "Santhi Hospital" }, "geometry": { "type": "Point", "coordinates": [ 75.9756422, 11.6796489 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963261, "amenity": "hospital", "name": "Swami Vivekananda Medical Mission Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.1106531, 11.6371651 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963266, "amenity": "hospital", "name": "Santhigiri Ayurveda & Siddha Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0791716, 11.5973321 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963268, "amenity": "hospital", "name": "Rapha Ortho & Spine Ayurvedic Speciality Centre" }, "geometry": { "type": "Point", "coordinates": [ 76.2554355, 11.6599762 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963272, "amenity": "hospital", "name": "st sholastica hospital" }, "geometry": { "type": "Point", "coordinates": [ 75.9048382, 11.7389332 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963274, "amenity": "hospital", "name": "N.S Hospital, Chundale" }, "geometry": { "type": "Point", "coordinates": [ 76.058407, 11.57436 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963275, "amenity": "hospital", "name": "St. Martin Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.2111471, 11.6241764 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963276, "amenity": "hospital", "name": "Elaj Ayurvedic Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.12005, 11.634191 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963280, "amenity": "clinic", "name": "Arogya Polyclinic" }, "geometry": { "type": "Point", "coordinates": [ 76.1615692, 11.6623892 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963285, "amenity": "clinic", "name": "Vythiri Clinic, Vythiri" }, "geometry": { "type": "Point", "coordinates": [ 76.0392867, 11.5533572 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963287, "amenity": "hospital", "name": "Karunya Homeo Hospital and Research Centre" }, "geometry": { "type": "Point", "coordinates": [ 76.1667297, 11.7918828 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963288, "amenity": "clinic", "name": "Karunya Clinic" }, "geometry": { "type": "Point", "coordinates": [ 75.9553774, 11.7352505 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963290, "amenity": "hospital", "name": "Soorya hospital" }, "geometry": { "type": "Point", "coordinates": [ 75.983418, 11.733043 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963291, "amenity": "hospital", "name": "Government District Homoeo Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0385894, 11.7528879 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963292, "amenity": "clinic", "name": "Shalem Clinic" }, "geometry": { "type": "Point", "coordinates": [ 76.1667806, 11.6598815 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963293, "amenity": "clinic", "name": "Janatha Clinic" }, "geometry": { "type": "Point", "coordinates": [ 75.8793121, 11.7439776 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963294, "amenity": "hospital", "name": "Amrita Kripa Charitable Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0894587, 11.6344529 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963300, "amenity": "clinic", "name": "Jeeva Ayurvedic Clinic" }, "geometry": { "type": "Point", "coordinates": [ 75.9903857, 11.821663 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963303, "amenity": "hospital", "name": "Government Ayurveda Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.006843, 11.760189 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963305, "amenity": "clinic", "name": "Dr. Ebina's Ayurvedic Clinic" }, "geometry": { "type": "Point", "coordinates": [ 76.1385977, 11.7035293 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963307, "amenity": "hospital", "name": "Ayush Ayurveda Hospital, Parakkal" }, "geometry": { "type": "Point", "coordinates": [ 76.1016746, 11.6374188 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963310, "amenity": "hospital", "name": "Louise Mount Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0000138, 11.6528014 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7725963311, "amenity": "hospital", "name": "Mayo Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.0897675, 11.6327792 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7803185147, "amenity": "clinic", "name": "Homeo Dispensary, Old Vythiri" }, "geometry": { "type": "Point", "coordinates": [ 76.0356761, 11.5420907 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7998651921, "amenity": "clinic", "name": "Dr Sithara Dileep, BHMS" }, "geometry": { "type": "Point", "coordinates": [ 76.1093966, 11.5754096 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7998684099, "amenity": "hospital", "name": "Gov.Veterinary Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.1308228, 11.5533112 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7998928255, "amenity": "clinic", "name": "District Public Health Lab" }, "geometry": { "type": "Point", "coordinates": [ 76.2637764, 11.6589111 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 7999419714, "amenity": "hospital", "name": "Arogyakeralam Wayanad" }, "geometry": { "type": "Point", "coordinates": [ 76.0902421, 11.6350234 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002063737, "amenity": "hospital", "name": "FWC pathiripalam" }, "geometry": { "type": "Point", "coordinates": [ 76.199665, 11.6667264 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002086957, "amenity": "hospital", "name": "FWC Subcentre Vadakkanad" }, "geometry": { "type": "Point", "coordinates": [ 76.2870642, 11.7225297 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002140187, "amenity": "hospital", "name": null }, "geometry": { "type": "Point", "coordinates": [ 75.9764405, 11.7758548 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002197728, "amenity": "hospital", "name": "FWC Kallupadi" }, "geometry": { "type": "Point", "coordinates": [ 76.1504468, 11.6331248 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002214129, "amenity": "hospital", "name": "Sub Centre, Pakkam" }, "geometry": { "type": "Point", "coordinates": [ 76.1475642, 11.6161527 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002235743, "amenity": "hospital", "name": "Primary Health Centre Vazhavatta" }, "geometry": { "type": "Point", "coordinates": [ 76.1581686, 11.6213793 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002264433, "amenity": "hospital", "name": "Pariyaram Sub Center" }, "geometry": { "type": "Point", "coordinates": [ 76.1007962, 11.6478902 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002434909, "amenity": "hospital", "name": "Appad Sub center" }, "geometry": { "type": "Point", "coordinates": [ 76.1754739, 11.6935542 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002448926, "amenity": "hospital", "name": "choothupara sub center" }, "geometry": { "type": "Point", "coordinates": [ 76.1615233, 11.702407 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002453948, "amenity": "hospital", "name": "Choothupara Sub center" }, "geometry": { "type": "Point", "coordinates": [ 76.1615394, 11.7024098 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8002648770, "amenity": "hospital", "name": "Cheerankunnu Sub center" }, "geometry": { "type": "Point", "coordinates": [ 76.1598316, 11.6544507 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8011947653, "amenity": "hospital", "name": "Chennalode Veterinary hospital" }, "geometry": { "type": "Point", "coordinates": [ 75.9998208, 11.6550037 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8011983293, "amenity": "hospital", "name": "Chennalode public health Center" }, "geometry": { "type": "Point", "coordinates": [ 75.9982437, 11.6580717 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8012168567, "amenity": "hospital", "name": "Kenichira Sub Centre" }, "geometry": { "type": "Point", "coordinates": [ 76.1503024, 11.7240632 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8013356130, "amenity": "hospital", "name": "Sreedhar Memorial Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.2126408, 11.5507106 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8013418462, "amenity": "hospital", "name": "Sreedhar Memorial Medical Center" }, "geometry": { "type": "Point", "coordinates": [ 76.2126748, 11.5504743 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8018297411, "amenity": "hospital", "name": "SC Valavayal" }, "geometry": { "type": "Point", "coordinates": [ 76.1922766, 11.7109561 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8018297440, "amenity": "hospital", "name": "SC Thazhamunda" }, "geometry": { "type": "Point", "coordinates": [ 76.1395959, 11.706229 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8018349822, "amenity": "hospital", "name": "SC Chempakapetta" }, "geometry": { "type": "Point", "coordinates": [ 76.121234, 11.7166678 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8018374444, "amenity": "hospital", "name": "SC Irulam" }, "geometry": { "type": "Point", "coordinates": [ 76.1880983, 11.7520755 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8023766112, "amenity": "hospital", "name": "sc adikolly" }, "geometry": { "type": "Point", "coordinates": [ 76.1946156, 11.7812693 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8024080356, "amenity": "hospital", "name": "sc kalloorkunnu" }, "geometry": { "type": "Point", "coordinates": [ 76.2074948, 11.7051065 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8024669741, "amenity": "hospital", "name": "SC Valanchery" }, "geometry": { "type": "Point", "coordinates": [ 76.1793239, 11.7318176 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8024678991, "amenity": "hospital", "name": "SC Vakery" }, "geometry": { "type": "Point", "coordinates": [ 76.2211972, 11.6959112 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8027321857, "amenity": "hospital", "name": "SC Pazhupathoor" }, "geometry": { "type": "Point", "coordinates": [ 76.2277039, 11.6775156 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8027378116, "amenity": "hospital", "name": "SC Pazhery" }, "geometry": { "type": "Point", "coordinates": [ 76.2719607, 11.7002666 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8111067792, "amenity": "hospital", "name": "SC MARAKKADAVU" }, "geometry": { "type": "Point", "coordinates": [ 76.1963376, 11.8627883 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8111144222, "amenity": "hospital", "name": "SC CHAAMAPPARA" }, "geometry": { "type": "Point", "coordinates": [ 76.208879, 11.8364194 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8111164694, "amenity": "hospital", "name": "SC SASIMALA" }, "geometry": { "type": "Point", "coordinates": [ 76.2000466, 11.8138333 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8111192513, "amenity": "hospital", "name": null }, "geometry": { "type": "Point", "coordinates": [ 76.1466817, 11.8164218 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8659041915, "amenity": "hospital", "name": "Homeo Dispensary, Madakkimala" }, "geometry": { "type": "Point", "coordinates": [ 76.0840482, 11.6650298 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8665665729, "amenity": "hospital", "name": "Mother Medicare, Muttil" }, "geometry": { "type": "Point", "coordinates": [ 76.1104419, 11.6414188 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8813483444, "amenity": "clinic", "name": "Government Homeo Clinic, Kenichira" }, "geometry": { "type": "Point", "coordinates": [ 76.1530723, 11.723905 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8891745147, "amenity": "clinic", "name": "Ayurvedha Dispensary, Kolichal" }, "geometry": { "type": "Point", "coordinates": [ 76.0279308, 11.5506371 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8998387385, "amenity": "hospital", "name": "Community Health Centre Peria" }, "geometry": { "type": "Point", "coordinates": [ 75.8564181, 11.8356598 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8998387386, "amenity": "hospital", "name": "Family Health Centre Edavaka" }, "geometry": { "type": "Point", "coordinates": [ 75.9637953, 11.7716399 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8998387387, "amenity": "hospital", "name": "Primary Health Centre Mullankolly" }, "geometry": { "type": "Point", "coordinates": [ 76.1653784, 11.8205132 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8998387388, "amenity": "hospital", "name": "Family Health Centre Vengapally" }, "geometry": { "type": "Point", "coordinates": [ 76.0333245, 11.6303539 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8998387389, "amenity": "hospital", "name": "Family Health Centre Vazhavatta" }, "geometry": { "type": "Point", "coordinates": [ 76.143777, 11.6004629 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 8998387390, "amenity": "hospital", "name": "Family Health Centre Noolpuzha" }, "geometry": { "type": "Point", "coordinates": [ 76.3284577, 11.6618891 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 9000365107, "amenity": "hospital", "name": "WIMS Urban Health Center Kalpetta" }, "geometry": { "type": "Point", "coordinates": [ 76.0824983, 11.6099469 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 9104912146, "amenity": "clinic", "name": "D CARE DENTAL CLINIC" }, "geometry": { "type": "Point", "coordinates": [ 76.0729729, 11.7397935 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 9218305772, "amenity": "hospital", "name": "Primary Health Centre, Mooppainad" }, "geometry": { "type": "Point", "coordinates": [ 76.2040551, 11.5477549 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 9265949059, "amenity": "hospital", "name": "Government Ayurvedic Dispensary, Padinjarathara" }, "geometry": { "type": "Point", "coordinates": [ 75.9827352, 11.6940867 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 9299016251, "amenity": "clinic", "name": "Government Homeo Dispensary" }, "geometry": { "type": "Point", "coordinates": [ 75.9748701, 11.6852566 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 9364738996, "amenity": "hospital", "name": "Mooppainad Govt Ayurveda Dispensary" }, "geometry": { "type": "Point", "coordinates": [ 76.2043937, 11.5484 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10019840472, "amenity": "clinic", "name": "dental clinic" }, "geometry": { "type": "Point", "coordinates": [ 75.8820726, 11.7441061 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10052779601, "amenity": "clinic", "name": "Dental Clinic" }, "geometry": { "type": "Point", "coordinates": [ 76.2640567, 11.6683945 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10097528057, "amenity": "hospital", "name": "Government Taluk Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.2575774, 11.6627489 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10113293168, "amenity": "hospital", "name": "District Early Intervention Centre" }, "geometry": { "type": "Point", "coordinates": [ 76.0895455, 11.6342526 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10113293169, "amenity": "hospital", "name": "Medical Superintendent Office" }, "geometry": { "type": "Point", "coordinates": [ 76.0897041, 11.6342351 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10113779000, "amenity": "hospital", "name": "Government General Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.084177, 11.6035906 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10115778049, "amenity": "hospital", "name": "IQRAA Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.262376, 11.6657932 ] } },
-{ "type": "Feature", "properties": { "element": "node", "id": 10115878875, "amenity": "hospital", "name": "Anupama Hospital" }, "geometry": { "type": "Point", "coordinates": [ 76.2578711, 11.6616927 ] } },
-{ "type": "Feature", "properties": { "element": "relation", "id": 11317341, "amenity": "hospital", "name": "st sholastica hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9047114, 11.7388908 ], [ 75.9047066, 11.7389477 ], [ 75.904713, 11.7389638 ], [ 75.9047291, 11.7389753 ], [ 75.9047482, 11.7389796 ], [ 75.9047683, 11.7389747 ], [ 75.9047787, 11.7389632 ], [ 75.9047834, 11.7389487 ], [ 75.9048083, 11.738952 ], [ 75.9048025, 11.7389832 ], [ 75.9049316, 11.739006 ], [ 75.9049372, 11.7389756 ], [ 75.9049696, 11.7389813 ], [ 75.904976, 11.7389466 ], [ 75.9049412, 11.7389405 ], [ 75.9049448, 11.7389212 ], [ 75.9049729, 11.7389262 ], [ 75.9050378, 11.7385739 ], [ 75.9050005, 11.7385673 ], [ 75.9050316, 11.7383982 ], [ 75.9050714, 11.7384052 ], [ 75.9050805, 11.7383561 ], [ 75.9050294, 11.738347 ], [ 75.9050427, 11.738275 ], [ 75.9051841, 11.7382999 ], [ 75.9051919, 11.7382575 ], [ 75.9050577, 11.7382338 ], [ 75.905064, 11.7381995 ], [ 75.9049677, 11.7381825 ], [ 75.9049249, 11.7384149 ], [ 75.904859, 11.7384033 ], [ 75.9048498, 11.7384533 ], [ 75.9047673, 11.7384387 ], [ 75.9046849, 11.7388862 ], [ 75.9047114, 11.7388908 ] ], [ [ 75.9048662, 11.7385753 ], [ 75.9049348, 11.738587 ], [ 75.9048817, 11.7388842 ], [ 75.9048131, 11.7388725 ], [ 75.9048662, 11.7385753 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 253268857, "amenity": "hospital", "name": "Community Health Center Porunnanore" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0046647, 11.7511282 ], [ 76.0047227, 11.7510238 ], [ 76.0049603, 11.7511503 ], [ 76.0049023, 11.7512547 ], [ 76.0046647, 11.7511282 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 257315153, "amenity": "hospital", "name": "Jyothi Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0008702, 11.7992647 ], [ 76.0010906, 11.799118 ], [ 76.0009585, 11.7989279 ], [ 76.0009278, 11.7989484 ], [ 76.000905, 11.7989155 ], [ 76.0007619, 11.7990108 ], [ 76.0008255, 11.7991024 ], [ 76.000779, 11.7991334 ], [ 76.0008702, 11.7992647 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 258580159, "amenity": "hospital", "name": "St. Joseph's Mission Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0061691, 11.8013223 ], [ 76.0061285, 11.8016254 ], [ 76.006164, 11.8016502 ], [ 76.0061437, 11.8019532 ], [ 76.0061437, 11.8020029 ], [ 76.006702, 11.8020178 ], [ 76.0070623, 11.8017048 ], [ 76.0069405, 11.8012726 ], [ 76.0061691, 11.8013223 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 380933351, "amenity": "hospital", "name": "DM Wayanad Institute of Medical Sciences" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1604679, 11.5585442 ], [ 76.1603148, 11.5584603 ], [ 76.1600411, 11.5588683 ], [ 76.1603696, 11.5591108 ], [ 76.1609312, 11.5601507 ], [ 76.1609169, 11.5603046 ], [ 76.1608741, 11.5603885 ], [ 76.1607694, 11.5604212 ], [ 76.1605028, 11.5604398 ], [ 76.160322, 11.5605144 ], [ 76.1601459, 11.5606543 ], [ 76.1600554, 11.5608082 ], [ 76.1599031, 11.5612092 ], [ 76.1598365, 11.5616196 ], [ 76.1598841, 11.5622585 ], [ 76.1600108, 11.5626946 ], [ 76.1600175, 11.5629056 ], [ 76.1598425, 11.5632617 ], [ 76.1597819, 11.5634595 ], [ 76.1597887, 11.5636706 ], [ 76.1600445, 11.5638684 ], [ 76.1600916, 11.5640003 ], [ 76.1600781, 11.5643214 ], [ 76.1626755, 11.5642886 ], [ 76.1627765, 11.5630158 ], [ 76.1626143, 11.5627257 ], [ 76.1624858, 11.562264 ], [ 76.162443, 11.5620402 ], [ 76.162443, 11.5616858 ], [ 76.1625191, 11.5613687 ], [ 76.1626429, 11.5612194 ], [ 76.1630618, 11.5609256 ], [ 76.1631855, 11.5607018 ], [ 76.1633188, 11.5598111 ], [ 76.1619956, 11.5594054 ], [ 76.1616481, 11.5593588 ], [ 76.1605617, 11.5586087 ], [ 76.1604679, 11.5585442 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 386991359, "amenity": "hospital", "name": "Fatima Mata Mission Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0781649, 11.6142455 ], [ 76.0785368, 11.615012 ], [ 76.0787615, 11.6149032 ], [ 76.0789578, 11.6151916 ], [ 76.079637, 11.6148982 ], [ 76.0794304, 11.6143631 ], [ 76.0793516, 11.6141383 ], [ 76.0792677, 11.6140027 ], [ 76.0790146, 11.6136839 ], [ 76.0788332, 11.6138247 ], [ 76.0784774, 11.6140532 ], [ 76.0781649, 11.6142455 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 425744162, "amenity": "hospital", "name": "Vinayaka Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2533091, 11.6639462 ], [ 76.2533764, 11.6639932 ], [ 76.2534399, 11.6639989 ], [ 76.2535033, 11.6639028 ], [ 76.2537448, 11.664035 ], [ 76.2538652, 11.6638235 ], [ 76.2539668, 11.663835 ], [ 76.2540447, 11.6637757 ], [ 76.2540662, 11.6636781 ], [ 76.254053, 11.6635988 ], [ 76.2540252, 11.6635339 ], [ 76.2541572, 11.6634433 ], [ 76.2540476, 11.6633171 ], [ 76.2540245, 11.663255 ], [ 76.2539437, 11.6633152 ], [ 76.2538456, 11.663238 ], [ 76.2537418, 11.6633397 ], [ 76.2535514, 11.6634056 ], [ 76.2534533, 11.6634904 ], [ 76.2533745, 11.6637202 ], [ 76.2533091, 11.6639462 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 425744233, "amenity": "hospital", "name": "Assumption Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2530081, 11.6627892 ], [ 76.2533386, 11.6627866 ], [ 76.253382, 11.6625912 ], [ 76.2534531, 11.6623895 ], [ 76.2530417, 11.6623007 ], [ 76.2530081, 11.6627892 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 545995107, "amenity": "hospital", "name": "Saint Marys Mission Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2648122, 11.6640192 ], [ 76.2650571, 11.6639121 ], [ 76.2651725, 11.6641549 ], [ 76.265675, 11.6641752 ], [ 76.2656844, 11.6643387 ], [ 76.2653658, 11.6643558 ], [ 76.2650251, 11.6643292 ], [ 76.2648122, 11.6640192 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 545998909, "amenity": "hospital", "name": "Vythiri Taluk Head Quarters Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0404077, 11.5509485 ], [ 76.0412032, 11.5509283 ], [ 76.0411808, 11.5510894 ], [ 76.0410422, 11.5517267 ], [ 76.0404316, 11.5517503 ], [ 76.0403927, 11.5516745 ], [ 76.0403543, 11.5515379 ], [ 76.0403172, 11.5514071 ], [ 76.040239, 11.5511792 ], [ 76.0402173, 11.551102 ], [ 76.0403403, 11.5510608 ], [ 76.0404077, 11.5509485 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 546099334, "amenity": "hospital", "name": "Dr Appukkuttan Memorial Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2606238, 11.6627444 ], [ 76.2608579, 11.6628906 ], [ 76.260939, 11.6627662 ], [ 76.2608583, 11.6627158 ], [ 76.2611747, 11.6622297 ], [ 76.2610215, 11.662134 ], [ 76.2606238, 11.6627444 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 656485890, "amenity": "hospital", "name": "Kripa Health Care" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.8619566, 11.7422066 ], [ 75.8620858, 11.7422291 ], [ 75.862081, 11.7421483 ], [ 75.8619637, 11.7421355 ], [ 75.8619566, 11.7422066 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 763029796, "amenity": "hospital", "name": "Communinty Health Centre Meppadi" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.130917, 11.5584764 ], [ 76.1307898, 11.5584993 ], [ 76.1307571, 11.5585199 ], [ 76.1307603, 11.558607 ], [ 76.1306772, 11.5586162 ], [ 76.1306571, 11.5584573 ], [ 76.130696, 11.5584507 ], [ 76.1306933, 11.558431 ], [ 76.1307281, 11.5584244 ], [ 76.1307188, 11.5583824 ], [ 76.1306584, 11.5583942 ], [ 76.1306155, 11.5581997 ], [ 76.1308904, 11.5581708 ], [ 76.1309239, 11.5582628 ], [ 76.1308797, 11.5582812 ], [ 76.1308998, 11.5583784 ], [ 76.130917, 11.5584764 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 798756818, "amenity": "hospital", "name": "Primary Health Center Mullankolly" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1794341, 11.8465302 ], [ 76.1795824, 11.8466212 ], [ 76.1796012, 11.8465918 ], [ 76.1796154, 11.8466005 ], [ 76.1796604, 11.8465301 ], [ 76.1795792, 11.8464803 ], [ 76.179498, 11.8464305 ], [ 76.1794341, 11.8465302 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 798809158, "amenity": "hospital", "name": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.264089, 11.6579344 ], [ 76.2630106, 11.6579103 ], [ 76.2630262, 11.6589173 ], [ 76.2637487, 11.6589376 ], [ 76.2638645, 11.6589408 ], [ 76.264158, 11.6589678 ], [ 76.264089, 11.6579344 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799281118, "amenity": "hospital", "name": "Community Health Centre Panamaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0701938, 11.7384455 ], [ 76.070251, 11.7382877 ], [ 76.0706545, 11.738306 ], [ 76.0706356, 11.7383941 ], [ 76.0706031, 11.738591 ], [ 76.0705678, 11.7386338 ], [ 76.0699479, 11.738632 ], [ 76.0699439, 11.7384296 ], [ 76.0701938, 11.7384455 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799281364, "amenity": "hospital", "name": "Community Health Centre Peria" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.8846542, 11.8411885 ], [ 75.884683, 11.8408944 ], [ 75.8845445, 11.8408971 ], [ 75.8845388, 11.8409718 ], [ 75.8844455, 11.8409635 ], [ 75.8844455, 11.8410203 ], [ 75.8843494, 11.8410175 ], [ 75.8843438, 11.8410618 ], [ 75.8843, 11.8410618 ], [ 75.8843, 11.8411226 ], [ 75.8843494, 11.8411157 ], [ 75.8843466, 11.8411572 ], [ 75.8844851, 11.841153 ], [ 75.8844809, 11.8411807 ], [ 75.8845346, 11.8411766 ], [ 75.8845318, 11.8411932 ], [ 75.8846542, 11.8411885 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799282620, "amenity": "hospital", "name": "Community Health Centre, Meppady" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2098022, 11.6203478 ], [ 76.2098042, 11.620234 ], [ 76.2098941, 11.6202355 ], [ 76.2098945, 11.6202152 ], [ 76.209794, 11.6202134 ], [ 76.2097954, 11.6201359 ], [ 76.2099773, 11.6201391 ], [ 76.2099757, 11.6202302 ], [ 76.2100311, 11.6202312 ], [ 76.2100303, 11.6202716 ], [ 76.2100004, 11.6202711 ], [ 76.2099989, 11.6203512 ], [ 76.2098022, 11.6203478 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799283331, "amenity": "hospital", "name": "Community Health Centre, Pulpally" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1622096, 11.7827137 ], [ 76.1620903, 11.782599 ], [ 76.1622786, 11.7823922 ], [ 76.1624209, 11.7825294 ], [ 76.1622096, 11.7827137 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799290259, "amenity": "hospital", "name": "Government Tribal Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9809951, 11.7558067 ], [ 75.98103, 11.75551 ], [ 75.9813465, 11.7555257 ], [ 75.9813518, 11.7554811 ], [ 75.9814806, 11.7554969 ], [ 75.9814618, 11.755657 ], [ 75.981325, 11.7556334 ], [ 75.9813223, 11.7556938 ], [ 75.9815235, 11.7557122 ], [ 75.981494, 11.7558487 ], [ 75.9813223, 11.7558304 ], [ 75.9813277, 11.7557883 ], [ 75.9811399, 11.7557778 ], [ 75.9811238, 11.7558172 ], [ 75.9809951, 11.7558067 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799292382, "amenity": "hospital", "name": "Primary Health Centre Vellamunda" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9558296, 11.7049264 ], [ 75.9558581, 11.704842 ], [ 75.9560338, 11.7048988 ], [ 75.9560053, 11.7049832 ], [ 75.9558296, 11.7049264 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799292778, "amenity": "hospital", "name": "Primary Health Centre Cheeral" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.3160357, 11.6107125 ], [ 76.3159461, 11.6106286 ], [ 76.3160547, 11.6105173 ], [ 76.316043, 11.6105064 ], [ 76.3161346, 11.6104126 ], [ 76.3162359, 11.6105075 ], [ 76.3160357, 11.6107125 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799294053, "amenity": "hospital", "name": "Main Center, PHC  Vazhavatta" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1582311, 11.6214931 ], [ 76.1582288, 11.6214303 ], [ 76.1582969, 11.6214262 ], [ 76.158375, 11.6214215 ], [ 76.1583727, 11.621492 ], [ 76.1582311, 11.6214931 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799300185, "amenity": "hospital", "name": "Primary Health Centre Kurukanmoola" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0630001, 11.8263959 ], [ 76.0629841, 11.8263757 ], [ 76.0629554, 11.8263391 ], [ 76.062936, 11.8263146 ], [ 76.0630698, 11.8262399 ], [ 76.0631319, 11.8263335 ], [ 76.0630001, 11.8263959 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799300187, "amenity": "hospital", "name": "Primary Health Centre Begur" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0671903, 11.8496372 ], [ 76.0672034, 11.8494774 ], [ 76.0673965, 11.8494925 ], [ 76.0673834, 11.8496524 ], [ 76.0671903, 11.8496372 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799300978, "amenity": "hospital", "name": "Primary Health Centre Varadoor" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1023534, 11.7141087 ], [ 76.1022929, 11.7141088 ], [ 76.1022928, 11.713995 ], [ 76.1023534, 11.7139949 ], [ 76.1023534, 11.7141087 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799300979, "amenity": "hospital", "name": "Family Health  Centre Pozhuthana" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0215451, 11.587661 ], [ 76.0215424, 11.5875297 ], [ 76.0218857, 11.5874508 ], [ 76.0219072, 11.5875822 ], [ 76.0216368, 11.587641 ], [ 76.0215451, 11.587661 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799303359, "amenity": "hospital", "name": "Primary Health Centre, Kappukunnu" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9733051, 11.6752159 ], [ 75.973317, 11.6750615 ], [ 75.9734684, 11.6750727 ], [ 75.9734552, 11.6752436 ], [ 75.9734055, 11.67524 ], [ 75.9733954, 11.6752646 ], [ 75.9733517, 11.6752614 ], [ 75.9733549, 11.6752196 ], [ 75.9733051, 11.6752159 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799303360, "amenity": "hospital", "name": "Primary Health Center Pakkom" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0941143, 11.8042907 ], [ 76.0940821, 11.8041384 ], [ 76.094286, 11.8041043 ], [ 76.0943021, 11.8042592 ], [ 76.0941143, 11.8042907 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 799306963, "amenity": "hospital", "name": "Family Health Centre Appapara" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0324043, 11.9077658 ], [ 76.032494, 11.907793 ], [ 76.0325478, 11.9076669 ], [ 76.0324565, 11.9076333 ], [ 76.0324043, 11.9077658 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 803336736, "amenity": "hospital", "name": "homeo hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1630916, 11.7830884 ], [ 76.1631235, 11.7831808 ], [ 76.1632013, 11.7831334 ], [ 76.1631682, 11.7830484 ], [ 76.1630916, 11.7830884 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 804086142, "amenity": "hospital", "name": "DM WIMS" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1610128, 11.5609161 ], [ 76.1611484, 11.5605668 ], [ 76.1613839, 11.5599674 ], [ 76.1624988, 11.5600611 ], [ 76.1620607, 11.5616207 ], [ 76.1610128, 11.5609161 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 804086144, "amenity": "hospital", "name": "DM WIMS" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1601188, 11.5620857 ], [ 76.1605971, 11.5617995 ], [ 76.1610791, 11.5626544 ], [ 76.1605789, 11.5628905 ], [ 76.1601188, 11.5620857 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 804135039, "amenity": "hospital", "name": "CHC pulpally" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1649065, 11.79446 ], [ 76.1649873, 11.7944821 ], [ 76.1651263, 11.7944916 ], [ 76.1651166, 11.7943777 ], [ 76.1652588, 11.7943904 ], [ 76.1652523, 11.7945486 ], [ 76.1653105, 11.794596 ], [ 76.1653881, 11.7945866 ], [ 76.1654075, 11.7944252 ], [ 76.1654495, 11.7942765 ], [ 76.1654592, 11.7942068 ], [ 76.16554, 11.7942132 ], [ 76.1655659, 11.7942068 ], [ 76.1655659, 11.7941341 ], [ 76.1655659, 11.7939853 ], [ 76.1655659, 11.7938841 ], [ 76.1653978, 11.7939189 ], [ 76.165401, 11.7938619 ], [ 76.1654528, 11.7938271 ], [ 76.1654495, 11.7937575 ], [ 76.1654204, 11.7936721 ], [ 76.1652944, 11.7936689 ], [ 76.1652168, 11.7937069 ], [ 76.1652006, 11.7937828 ], [ 76.1651136, 11.7937898 ], [ 76.1650422, 11.793786 ], [ 76.1649642, 11.7937755 ], [ 76.1649, 11.7937702 ], [ 76.1648644, 11.7937638 ], [ 76.1648662, 11.7938422 ], [ 76.1648547, 11.7939505 ], [ 76.1648774, 11.7940739 ], [ 76.1648871, 11.79421 ], [ 76.1649291, 11.794248 ], [ 76.1649226, 11.7943524 ], [ 76.1649065, 11.79446 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 804180240, "amenity": "hospital", "name": "hml hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1464108, 11.5562432 ], [ 76.1459178, 11.5563564 ], [ 76.1458022, 11.5557639 ], [ 76.1462413, 11.5555337 ], [ 76.1464108, 11.5562432 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 827554972, "amenity": "hospital", "name": "Ayush Ayurveda Hospital, Parakkal" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1015882, 11.63747 ], [ 76.101773, 11.6374741 ], [ 76.1017756, 11.6373585 ], [ 76.1015908, 11.6373544 ], [ 76.1015882, 11.63747 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 827554976, "amenity": "clinic", "name": "Vythiri Clinic, Vythiri" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0392403, 11.5534304 ], [ 76.0393327, 11.5534322 ], [ 76.0393347, 11.5533373 ], [ 76.0392423, 11.5533355 ], [ 76.0392403, 11.5534304 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 827554999, "amenity": "hospital", "name": "Santhigiri Ayurveda & Siddha Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0789177, 11.5974191 ], [ 76.0790132, 11.5975667 ], [ 76.0793127, 11.5973372 ], [ 76.0792172, 11.5971941 ], [ 76.0789177, 11.5974191 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 846674090, "amenity": "hospital", "name": "Community Health Centre Thariyode" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9957065, 11.6554812 ], [ 75.9960345, 11.6554144 ], [ 75.9960027, 11.6552645 ], [ 75.9956747, 11.6553314 ], [ 75.9957065, 11.6554812 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 857068370, "amenity": "hospital", "name": "Noolpuzha Family Health Centre" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.3181414, 11.6671408 ], [ 76.3182449, 11.6671002 ], [ 76.3182985, 11.6672309 ], [ 76.3184104, 11.667187 ], [ 76.318462, 11.6673128 ], [ 76.3182464, 11.6673975 ], [ 76.3181414, 11.6671408 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858007565, "amenity": "hospital", "name": "Homoeo Dispensary" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2638957, 11.6587577 ], [ 76.2638955, 11.6589676 ], [ 76.264158, 11.6589678 ], [ 76.2641582, 11.6587579 ], [ 76.2638957, 11.6587577 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858054200, "amenity": "hospital", "name": "Family Health Centre Ambalavayal" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2091442, 11.6203788 ], [ 76.2091469, 11.620034 ], [ 76.209776, 11.6200387 ], [ 76.2097733, 11.6203836 ], [ 76.2091442, 11.6203788 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858178631, "amenity": "hospital", "name": "Family Health Center, Vengapally" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0402231, 11.6494919 ], [ 76.0402661, 11.6494025 ], [ 76.0403214, 11.6494097 ], [ 76.0403518, 11.6493093 ], [ 76.040095, 11.6492437 ], [ 76.0400551, 11.6493277 ], [ 76.0401036, 11.6493514 ], [ 76.0400956, 11.6493767 ], [ 76.0400769, 11.6494354 ], [ 76.0402231, 11.6494919 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858387958, "amenity": "hospital", "name": "FWC Subcentre Muthanga" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.3579916, 11.6737252 ], [ 76.3579624, 11.6736619 ], [ 76.3580243, 11.6736429 ], [ 76.3580597, 11.6737053 ], [ 76.3579916, 11.6737252 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858389223, "amenity": "hospital", "name": "FWC Karassery" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2957436, 11.6796338 ], [ 76.2957409, 11.6795557 ], [ 76.2958314, 11.6795662 ], [ 76.2958301, 11.6796325 ], [ 76.2957436, 11.6796338 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858390002, "amenity": "hospital", "name": "FWC Kalloor" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.3341916, 11.6640182 ], [ 76.3341262, 11.6640056 ], [ 76.3341367, 11.6639198 ], [ 76.3342184, 11.6639244 ], [ 76.3341916, 11.6640182 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858393681, "amenity": "hospital", "name": "Sub Centre, Kallupadi" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1503825, 11.6331044 ], [ 76.150405, 11.6330767 ], [ 76.1505128, 11.6331147 ], [ 76.1504795, 11.6332051 ], [ 76.1503609, 11.6331633 ], [ 76.1503825, 11.6331044 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858401734, "amenity": "hospital", "name": "Primary Health Centre Chulliode" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2561221, 11.5974038 ], [ 76.2562318, 11.5975038 ], [ 76.2561718, 11.597567 ], [ 76.2560621, 11.5974669 ], [ 76.2561221, 11.5974038 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858420863, "amenity": "hospital", "name": "Family Welfare Centre Nambiyarkunnu" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.3151172, 11.5876365 ], [ 76.3152059, 11.5875175 ], [ 76.3152666, 11.5874901 ], [ 76.3153694, 11.5875633 ], [ 76.315234, 11.5877097 ], [ 76.3151172, 11.5876365 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858420864, "amenity": "hospital", "name": "health  centre nambiyarkunne" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.3151172, 11.5876365 ], [ 76.3152059, 11.5875175 ], [ 76.3152448, 11.5874814 ], [ 76.3153694, 11.5875633 ], [ 76.315234, 11.5877097 ], [ 76.3151172, 11.5876365 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858422810, "amenity": "hospital", "name": "health centre mundakolly" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.3232624, 11.6168992 ], [ 76.3233294, 11.6168434 ], [ 76.3233894, 11.6167996 ], [ 76.3234575, 11.6169221 ], [ 76.3234809, 11.6169769 ], [ 76.3233752, 11.6170694 ], [ 76.3233559, 11.6170824 ], [ 76.323238, 11.6169181 ], [ 76.3232624, 11.6168992 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858424596, "amenity": "hospital", "name": "health centre thazhathoor" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2851908, 11.6104673 ], [ 76.2851029, 11.6104983 ], [ 76.2850329, 11.6105322 ], [ 76.2850691, 11.6105971 ], [ 76.2851114, 11.6106461 ], [ 76.2852323, 11.6106024 ], [ 76.2851908, 11.6104673 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858426743, "amenity": "hospital", "name": "PILAKAVU SUB CENTER" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9921088, 11.8415248 ], [ 75.9922373, 11.8415179 ], [ 75.9922419, 11.841351 ], [ 75.9921204, 11.841351 ], [ 75.9921088, 11.8415248 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858428478, "amenity": "hospital", "name": "KUZHINILAM SUB CENTER" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9862516, 11.8197595 ], [ 75.9862493, 11.8196818 ], [ 75.9863661, 11.8196864 ], [ 75.9863474, 11.8197687 ], [ 75.9862516, 11.8197595 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 858429155, "amenity": "hospital", "name": "ONDAYANGADY SUB CENTER" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0277528, 11.8242916 ], [ 76.0277812, 11.8242359 ], [ 76.0279177, 11.8242818 ], [ 76.0278864, 11.8243389 ], [ 76.0277528, 11.8242916 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 859161613, "amenity": "hospital", "name": "Sub helth center" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0066001, 11.6370978 ], [ 76.0066204, 11.6370515 ], [ 76.0065798, 11.6370167 ], [ 76.0065748, 11.6369654 ], [ 76.0065038, 11.637025 ], [ 76.0065139, 11.637073 ], [ 76.006542, 11.6371184 ], [ 76.0066001, 11.6370978 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 859558129, "amenity": "hospital", "name": "Kenichira Sub Centre" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.150253, 11.7240221 ], [ 76.150337, 11.7240175 ], [ 76.1503242, 11.7240872 ], [ 76.150253, 11.7240884 ], [ 76.150253, 11.7240221 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860325239, "amenity": "hospital", "name": "sc valavayal" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1922212, 11.7110215 ], [ 76.1923665, 11.7109723 ], [ 76.1923553, 11.7108849 ], [ 76.1922158, 11.7109006 ], [ 76.1921997, 11.7109427 ], [ 76.1922212, 11.7110215 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860329423, "amenity": "hospital", "name": "SC Chempakapetta" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1212554, 11.7167177 ], [ 76.1212796, 11.7166441 ], [ 76.1211857, 11.7166074 ], [ 76.1211669, 11.7167045 ], [ 76.1212554, 11.7167177 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860331857, "amenity": "hospital", "name": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1395383, 11.7062999 ], [ 76.1396509, 11.706254 ], [ 76.1396161, 11.706162 ], [ 76.13949, 11.7062211 ], [ 76.1395383, 11.7062999 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860333431, "amenity": "hospital", "name": "SC Irulam" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1880849, 11.7521254 ], [ 76.1881252, 11.7520729 ], [ 76.1880822, 11.7520335 ], [ 76.1880286, 11.7520834 ], [ 76.1880849, 11.7521254 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860340465, "amenity": "hospital", "name": "sc cheeyambam" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1995292, 11.7539412 ], [ 76.1995444, 11.7539402 ], [ 76.1995735, 11.7539385 ], [ 76.1995627, 11.7539057 ], [ 76.1995118, 11.753911 ], [ 76.1995292, 11.7539412 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860902908, "amenity": "hospital", "name": "SC Adikolly" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1946022, 11.7812988 ], [ 76.1946666, 11.7812922 ], [ 76.1946572, 11.7812292 ], [ 76.1945928, 11.7812148 ], [ 76.1946022, 11.7812988 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860906533, "amenity": "hospital", "name": "SC Vandikkadavu" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2049605, 11.7851115 ], [ 76.2052394, 11.7848804 ], [ 76.2051642, 11.7848141 ], [ 76.2050249, 11.7846914 ], [ 76.2047631, 11.7848636 ], [ 76.2049605, 11.7851115 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860934054, "amenity": "hospital", "name": "SC Kaloorkunnu" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2075077, 11.7051675 ], [ 76.2075635, 11.7051107 ], [ 76.2075056, 11.7050414 ], [ 76.207424, 11.7050981 ], [ 76.2075077, 11.7051675 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860993726, "amenity": "hospital", "name": "SC Vakery" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2211844, 11.6959462 ], [ 76.2212533, 11.6959062 ], [ 76.2212074, 11.6958512 ], [ 76.2211538, 11.6958862 ], [ 76.2211844, 11.6959462 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 860996205, "amenity": "hospital", "name": "SC  Valanchery" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1792617, 11.7318281 ], [ 76.179326, 11.7318638 ], [ 76.1793561, 11.7318008 ], [ 76.179311, 11.7317567 ], [ 76.1792617, 11.7318281 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 861277413, "amenity": "hospital", "name": "SC kuppady" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2635969, 11.6935243 ], [ 76.2636548, 11.6934619 ], [ 76.2635597, 11.6933772 ], [ 76.2634896, 11.6933247 ], [ 76.2633899, 11.6934509 ], [ 76.2635254, 11.693499 ], [ 76.2635969, 11.6935243 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 861281559, "amenity": "hospital", "name": "S C Pazhery" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2719428, 11.7002908 ], [ 76.2719852, 11.7002849 ], [ 76.2719852, 11.7002463 ], [ 76.2719397, 11.7002404 ], [ 76.2719428, 11.7002908 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 861293104, "amenity": "hospital", "name": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2373901, 11.6486174 ], [ 76.2374277, 11.6486202 ], [ 76.2374268, 11.6485918 ], [ 76.2373939, 11.648588 ], [ 76.2373901, 11.6486174 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 861294471, "amenity": "hospital", "name": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2276644, 11.6775504 ], [ 76.2277196, 11.6775722 ], [ 76.2277591, 11.6774628 ], [ 76.2276907, 11.677446 ], [ 76.2276644, 11.6775504 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 861296080, "amenity": "hospital", "name": null }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.2652687, 11.6936485 ], [ 76.2653136, 11.6936524 ], [ 76.2653215, 11.6935724 ], [ 76.2652797, 11.6935684 ], [ 76.2652687, 11.6936485 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 870708184, "amenity": "hospital", "name": "SC IRIPPOOD" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1645201, 11.8459351 ], [ 76.1645709, 11.8459392 ], [ 76.1646311, 11.8459441 ], [ 76.1646465, 11.8458024 ], [ 76.164551, 11.8457873 ], [ 76.1645346, 11.8458659 ], [ 76.1645201, 11.8459351 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 870723847, "amenity": "hospital", "name": "SC CHAAMAPPARA" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.208938, 11.836481 ], [ 76.2088567, 11.8364731 ], [ 76.2088059, 11.8362721 ], [ 76.2088933, 11.8362542 ], [ 76.208938, 11.836481 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 870728917, "amenity": "hospital", "name": "SC PALAKOLLY" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1466964, 11.8164245 ], [ 76.1467501, 11.8164074 ], [ 76.1467326, 11.816351 ], [ 76.146679, 11.8163759 ], [ 76.1466964, 11.8164245 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 933786989, "amenity": "hospital", "name": "Community Health Center" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1676319, 11.664643 ], [ 76.1677049, 11.6647144 ], [ 76.1677821, 11.6647859 ], [ 76.1678722, 11.6648754 ], [ 76.1679216, 11.6649279 ], [ 76.1679645, 11.664951 ], [ 76.1680203, 11.6649805 ], [ 76.168104, 11.6649574 ], [ 76.1682735, 11.6648775 ], [ 76.1683057, 11.6648355 ], [ 76.1683486, 11.6647997 ], [ 76.1683679, 11.6646316 ], [ 76.1684009, 11.6645192 ], [ 76.1684237, 11.6644719 ], [ 76.1684259, 11.6644257 ], [ 76.1680611, 11.6642513 ], [ 76.1678293, 11.6641567 ], [ 76.167662, 11.6641105 ], [ 76.1676276, 11.6642134 ], [ 76.1676228, 11.6643289 ], [ 76.1676289, 11.6644622 ], [ 76.1676307, 11.6645559 ], [ 76.1676319, 11.664643 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 934316104, "amenity": "hospital", "name": "Swami Vivekananda Medical Mission Hospital, Ambukuthi" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1104455, 11.6376836 ], [ 76.1109007, 11.6377004 ], [ 76.1109162, 11.6372939 ], [ 76.110461, 11.6372772 ], [ 76.1104455, 11.6376836 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 934389240, "amenity": "hospital", "name": "Government Ayurvedic Hospital, Kumbalad" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.101871, 11.6715607 ], [ 76.1019893, 11.6716142 ], [ 76.1020334, 11.6715208 ], [ 76.1019151, 11.6714673 ], [ 76.101871, 11.6715607 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 934407017, "amenity": "hospital", "name": "Sub Centre, kumbalad" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0998486, 11.6774569 ], [ 76.0999271, 11.6774614 ], [ 76.0999307, 11.6774003 ], [ 76.0998523, 11.6773958 ], [ 76.0998486, 11.6774569 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 934414248, "amenity": "hospital", "name": "Sub Centre, Panangandi" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1216648, 11.670952 ], [ 76.1217725, 11.6709096 ], [ 76.1217424, 11.6708362 ], [ 76.1216347, 11.6708786 ], [ 76.1216648, 11.670952 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 934419495, "amenity": "hospital", "name": "Sub Centre, Pariyaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1008349, 11.6486678 ], [ 76.1009053, 11.648664 ], [ 76.1008964, 11.6485046 ], [ 76.1008261, 11.6485083 ], [ 76.1008349, 11.6486678 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 937060171, "amenity": "hospital", "name": "Primary Health Center, Vazhavatta" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1580987, 11.621296 ], [ 76.1580942, 11.6215164 ], [ 76.1584012, 11.621512 ], [ 76.1584012, 11.6214054 ], [ 76.1582373, 11.6214084 ], [ 76.1582462, 11.6212872 ], [ 76.1580987, 11.621296 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 941428317, "amenity": "hospital", "name": "Family Health Centre Kottathara" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.011008, 11.6665864 ], [ 76.011008, 11.6662736 ], [ 76.011008, 11.6661438 ], [ 76.0112453, 11.6661237 ], [ 76.0113912, 11.6661559 ], [ 76.0113552, 11.6663631 ], [ 76.0112535, 11.6664566 ], [ 76.0112546, 11.6665069 ], [ 76.0112299, 11.6665683 ], [ 76.0111549, 11.6666337 ], [ 76.0110532, 11.6666347 ], [ 76.0110111, 11.6666297 ], [ 76.011008, 11.6665864 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 943157219, "amenity": "clinic", "name": "ASA Clinic Vellamunda" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.9543222, 11.7302376 ], [ 75.9544445, 11.7302544 ], [ 75.954436, 11.7301073 ], [ 75.9545239, 11.729977 ], [ 75.9544102, 11.7299266 ], [ 75.9543072, 11.7300653 ], [ 75.9543222, 11.7302376 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 952104319, "amenity": "hospital", "name": "Family Health Center, Poothadi" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1487383, 11.7255295 ], [ 76.1483856, 11.7257002 ], [ 76.1482287, 11.725523 ], [ 76.1482005, 11.7254954 ], [ 76.1481268, 11.7253549 ], [ 76.1480932, 11.7252866 ], [ 76.1481697, 11.7252459 ], [ 76.1481362, 11.725154 ], [ 76.1482408, 11.7251054 ], [ 76.148226, 11.7250739 ], [ 76.1483387, 11.7250174 ], [ 76.148395, 11.7251395 ], [ 76.1485613, 11.7250844 ], [ 76.1487383, 11.7255295 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 959081869, "amenity": "hospital", "name": "Primary Health Centre Sugandhagiri" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0030098, 11.5505374 ], [ 76.0030715, 11.5507082 ], [ 76.0028542, 11.5507818 ], [ 76.002806, 11.5506215 ], [ 76.0030098, 11.5505374 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 960661790, "amenity": "hospital", "name": "District Hospital Mananthavady" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0004058, 11.8005707 ], [ 76.0004219, 11.8007414 ], [ 76.0006445, 11.8008438 ], [ 76.0008457, 11.8009278 ], [ 76.0009932, 11.8008359 ], [ 76.0010066, 11.800702 ], [ 76.0010764, 11.800597 ], [ 76.0011568, 11.8005654 ], [ 76.0013794, 11.8005838 ], [ 76.0015645, 11.8005366 ], [ 76.0016477, 11.8006153 ], [ 76.0017308, 11.800786 ], [ 76.0018783, 11.8007807 ], [ 76.0019829, 11.8007309 ], [ 76.0019347, 11.8005707 ], [ 76.0018622, 11.8004027 ], [ 76.0019642, 11.8003423 ], [ 76.0019964, 11.8002766 ], [ 76.00194, 11.8001191 ], [ 76.0015618, 11.8002556 ], [ 76.0014301, 11.8001897 ], [ 76.0012976, 11.8000501 ], [ 76.0011088, 11.799916 ], [ 76.0009148, 11.7998136 ], [ 76.0008399, 11.7998342 ], [ 76.0007434, 11.7999764 ], [ 76.0005932, 11.80021 ], [ 76.0004243, 11.8004857 ], [ 76.0004058, 11.8005707 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 962260845, "amenity": "hospital", "name": "Chyavana Ayur Retreat Ayurveda Hospital Thekkumthara" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0391072, 11.6476171 ], [ 76.0390903, 11.6472814 ], [ 76.0395526, 11.6472649 ], [ 76.0395598, 11.6476219 ], [ 76.0391072, 11.6476171 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 963941293, "amenity": "hospital", "name": "Sub Center , Karinkutty" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0616703, 11.6598595 ], [ 76.0615548, 11.6595483 ], [ 76.0616954, 11.6594936 ], [ 76.0618051, 11.6598105 ], [ 76.0616703, 11.6598595 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 979742626, "amenity": "clinic", "name": "Ellumandam health centre" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 75.961068, 11.7858197 ], [ 75.96109, 11.785721 ], [ 75.9612837, 11.7857593 ], [ 75.9612536, 11.7858748 ], [ 75.9611045, 11.7858391 ], [ 75.961068, 11.7858197 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 982240822, "amenity": "hospital", "name": "Community Health Centre Panamaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0699856, 11.7386139 ], [ 76.0699837, 11.7385093 ], [ 76.0702023, 11.7385211 ], [ 76.0701973, 11.7386168 ], [ 76.0699856, 11.7386139 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 995800480, "amenity": "hospital", "name": "Sub Center, Chundakkara" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0651904, 11.68183 ], [ 76.0655198, 11.6818529 ], [ 76.0655395, 11.6815812 ], [ 76.0652101, 11.6815583 ], [ 76.0651904, 11.68183 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1017372482, "amenity": "hospital", "name": "PHC Tholpetty" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.064213, 11.9465951 ], [ 76.0644168, 11.9466634 ], [ 76.0644951, 11.9464991 ], [ 76.0643894, 11.9464815 ], [ 76.0643951, 11.9464345 ], [ 76.0642885, 11.9464095 ], [ 76.064213, 11.9465951 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1080463555, "amenity": "hospital", "name": "Homeo Dispensary Pallimukku" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.072534, 11.6885678 ], [ 76.0725172, 11.6884294 ], [ 76.0725973, 11.6884201 ], [ 76.072614, 11.6885585 ], [ 76.072534, 11.6885678 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1083550599, "amenity": "hospital", "name": "Subcenter,Pallimukku" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0784558, 11.6827446 ], [ 76.0785717, 11.682794 ], [ 76.0786071, 11.6827142 ], [ 76.0784912, 11.6826649 ], [ 76.0784558, 11.6827446 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1084062616, "amenity": "hospital", "name": "Family Health Center, Varadhoor" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1058451, 11.6998925 ], [ 76.105432, 11.6996708 ], [ 76.1056596, 11.699244 ], [ 76.1058595, 11.6993454 ], [ 76.105821, 11.6994102 ], [ 76.1061233, 11.6995635 ], [ 76.1059173, 11.6999244 ], [ 76.1058451, 11.6998925 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1085335079, "amenity": "hospital", "name": "Subcenter,Arimula" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1277142, 11.6896978 ], [ 76.1277167, 11.6896035 ], [ 76.1277872, 11.6896053 ], [ 76.1277847, 11.6896996 ], [ 76.1277142, 11.6896978 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1085335086, "amenity": "hospital", "name": "Government Eye hospital, kariyambadi" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.1330944, 11.6828672 ], [ 76.1326989, 11.682516 ], [ 76.1329296, 11.6820509 ], [ 76.1331642, 11.6821477 ], [ 76.1332437, 11.6820092 ], [ 76.1337089, 11.6822559 ], [ 76.1331855, 11.6829356 ], [ 76.1330944, 11.6828672 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1085548107, "amenity": "hospital", "name": "Subcentre, Koodothummal" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0917435, 11.7225818 ], [ 76.0917458, 11.7225332 ], [ 76.0918369, 11.7225375 ], [ 76.0918345, 11.7225861 ], [ 76.0917435, 11.7225818 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1085552516, "amenity": "hospital", "name": "Sneha palliative care" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0832877, 11.6909433 ], [ 76.0833166, 11.69086 ], [ 76.0834036, 11.6908889 ], [ 76.0833747, 11.6909722 ], [ 76.0832877, 11.6909433 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1097620007, "amenity": "hospital", "name": "Community Health Centre Panamaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0704429, 11.7386239 ], [ 76.0704479, 11.7384483 ], [ 76.0705176, 11.7384492 ], [ 76.0705165, 11.7384995 ], [ 76.070589, 11.7385026 ], [ 76.0705853, 11.738585 ], [ 76.0705185, 11.7385821 ], [ 76.0705165, 11.7386271 ], [ 76.0704429, 11.7386239 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1097620008, "amenity": "hospital", "name": "Community Health Centre Panamaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.070318, 11.7386139 ], [ 76.0703194, 11.7385666 ], [ 76.0704193, 11.7385745 ], [ 76.070418, 11.7386185 ], [ 76.070318, 11.7386139 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1097620009, "amenity": "hospital", "name": "Community Health Centre Panamaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0702438, 11.7385281 ], [ 76.0702573, 11.7384269 ], [ 76.0704204, 11.7384457 ], [ 76.0704086, 11.7385447 ], [ 76.0702438, 11.7385281 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1097620010, "amenity": "hospital", "name": "Community Health Centre Panamaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0700076, 11.7384941 ], [ 76.0700119, 11.7384448 ], [ 76.0701808, 11.7384589 ], [ 76.0701764, 11.7385083 ], [ 76.0700076, 11.7384941 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1097620798, "amenity": "hospital", "name": "Community Health Centre Panamaram" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0702992, 11.7383809 ], [ 76.0703039, 11.7383066 ], [ 76.0706301, 11.738326 ], [ 76.0706255, 11.7384002 ], [ 76.0705075, 11.7383932 ], [ 76.0705043, 11.7384443 ], [ 76.0704308, 11.7384399 ], [ 76.070434, 11.7383889 ], [ 76.0702992, 11.7383809 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1184388392, "amenity": "hospital", "name": "madayikkal hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0566056, 11.7805541 ], [ 76.0568325, 11.7805158 ], [ 76.0567699, 11.7803474 ], [ 76.0565665, 11.780378 ], [ 76.056504, 11.7804086 ], [ 76.0566056, 11.7805541 ] ] ] } },
-{ "type": "Feature", "properties": { "element": "way", "id": 1335881647, "amenity": "hospital", "name": "H M L Hospital" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 76.0140046, 11.5841038 ], [ 76.0142514, 11.5833287 ], [ 76.0145304, 11.5833996 ], [ 76.0147691, 11.5838857 ], [ 76.0142863, 11.5841774 ], [ 76.0140046, 11.5841038 ] ] ] } }
-]
+  "type": "FeatureCollection",
+  "name": "wayanad_health",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 2000118622,
+        "amenity": "hospital",
+        "name": "Community Health Centre Porunnanore"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0048247, 11.7510286] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 4834362654,
+        "amenity": "hospital",
+        "name": "PBM Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1596653, 11.6570597] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5273068839,
+        "amenity": "hospital",
+        "name": "Parls Dental Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.260006, 11.6621376] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5273267725,
+        "amenity": "clinic",
+        "name": "Alfa hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2627656, 11.6658814] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5273465231,
+        "amenity": "hospital",
+        "name": "Palliyal Dental"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0836235, 11.604897] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5274879292,
+        "amenity": "clinic",
+        "name": "whites multi speciality dental clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0711032, 11.7383439] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5274891888,
+        "amenity": "hospital",
+        "name": "social health center"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.070615, 11.7380883] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5274933955,
+        "amenity": "hospital",
+        "name": "navodaya hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0736781, 11.7387609] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5275245883,
+        "amenity": "hospital",
+        "name": "Public health subcentre"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1201928, 11.7425872] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5275245905,
+        "amenity": "clinic",
+        "name": "Mathews Homeo clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1194075, 11.7411555] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 5276849449,
+        "amenity": "hospital",
+        "name": "TALUK HEAD QUARTERS HOSPITAL VYTHIRI"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0405901, 11.5510242] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 6953307936,
+        "amenity": "hospital",
+        "name": "Shrisha Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1646844, 11.7934335] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 6953935603,
+        "amenity": "hospital",
+        "name": "Victory Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2572086, 11.6602708] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 6956345382,
+        "amenity": "hospital",
+        "name": "Leo Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0853072, 11.6045193] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 6956365498,
+        "amenity": "hospital",
+        "name": "K J Medical Trust Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.088562, 11.6295388] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 6956427934,
+        "amenity": "clinic",
+        "name": "Kripa Nursing Home"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.083893, 11.6150825] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 6957302260,
+        "amenity": "hospital",
+        "name": "M.E.S. Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2572546, 11.6616689] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7130228002,
+        "amenity": "hospital",
+        "name": "Family Health Centre Meppadi"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.130717, 11.5584994] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7398810590,
+        "amenity": "hospital",
+        "name": "Community Health Caenter, Meenanagadi"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1678844, 11.6645151] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7462625817,
+        "amenity": "hospital",
+        "name": "Community Health Center Pulpally"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1651668, 11.7942969] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7470718257,
+        "amenity": "hospital",
+        "name": "Taluk Hospital, Sulthan Bathery"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2634851, 11.6586103] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7479173997,
+        "amenity": "hospital",
+        "name": "Family Health centre  Edavaka"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9764867, 11.7764224] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7484197306,
+        "amenity": "clinic",
+        "name": "Meppadi Govt.Homoeo Dispensary"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1342805, 11.5529974] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7502483751,
+        "amenity": "hospital",
+        "name": "Govt. Homoeo Dispensary Kolery"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1624716, 11.7041382] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7513040511,
+        "amenity": "hospital",
+        "name": "Family Health Centre Cheeral"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.316114, 11.610521] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7515391433,
+        "amenity": "hospital",
+        "name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [76.3222925, 11.6045773] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7515413006,
+        "amenity": "hospital",
+        "name": "district ayurvedic hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0813997, 11.6171614] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7520961468,
+        "amenity": "clinic",
+        "name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2662158, 11.6734305] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7528708427,
+        "amenity": "hospital",
+        "name": "Tribal Medical Unit, Vythiri"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0384745, 11.5486243] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7531535068,
+        "amenity": "clinic",
+        "name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0824293, 11.6098436] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963258,
+        "amenity": "clinic",
+        "name": "Gokulam Sree Multi Speciality Ayurveda Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.141641, 11.651072] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963259,
+        "amenity": "hospital",
+        "name": "Vismaya Hospital & Diabetes Centre"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2562594, 11.6606403] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963260,
+        "amenity": "hospital",
+        "name": "Santhi Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9756422, 11.6796489] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963261,
+        "amenity": "hospital",
+        "name": "Swami Vivekananda Medical Mission Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1106531, 11.6371651] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963266,
+        "amenity": "hospital",
+        "name": "Santhigiri Ayurveda & Siddha Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0791716, 11.5973321] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963268,
+        "amenity": "hospital",
+        "name": "Rapha Ortho & Spine Ayurvedic Speciality Centre"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2554355, 11.6599762] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963272,
+        "amenity": "hospital",
+        "name": "st sholastica hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9048382, 11.7389332] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963274,
+        "amenity": "hospital",
+        "name": "N.S Hospital, Chundale"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.058407, 11.57436] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963275,
+        "amenity": "hospital",
+        "name": "St. Martin Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2111471, 11.6241764] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963276,
+        "amenity": "hospital",
+        "name": "Elaj Ayurvedic Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.12005, 11.634191] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963280,
+        "amenity": "clinic",
+        "name": "Arogya Polyclinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1615692, 11.6623892] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963285,
+        "amenity": "clinic",
+        "name": "Vythiri Clinic, Vythiri"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0392867, 11.5533572] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963287,
+        "amenity": "hospital",
+        "name": "Karunya Homeo Hospital and Research Centre"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1667297, 11.7918828] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963288,
+        "amenity": "clinic",
+        "name": "Karunya Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9553774, 11.7352505] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963290,
+        "amenity": "hospital",
+        "name": "Soorya hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.983418, 11.733043] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963291,
+        "amenity": "hospital",
+        "name": "Government District Homoeo Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0385894, 11.7528879] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963292,
+        "amenity": "clinic",
+        "name": "Shalem Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1667806, 11.6598815] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963293,
+        "amenity": "clinic",
+        "name": "Janatha Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.8793121, 11.7439776] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963294,
+        "amenity": "hospital",
+        "name": "Amrita Kripa Charitable Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0894587, 11.6344529] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963300,
+        "amenity": "clinic",
+        "name": "Jeeva Ayurvedic Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9903857, 11.821663] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963303,
+        "amenity": "hospital",
+        "name": "Government Ayurveda Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.006843, 11.760189] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963305,
+        "amenity": "clinic",
+        "name": "Dr. Ebina's Ayurvedic Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1385977, 11.7035293] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963307,
+        "amenity": "hospital",
+        "name": "Ayush Ayurveda Hospital, Parakkal"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1016746, 11.6374188] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963310,
+        "amenity": "hospital",
+        "name": "Louise Mount Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0000138, 11.6528014] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7725963311,
+        "amenity": "hospital",
+        "name": "Mayo Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0897675, 11.6327792] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7803185147,
+        "amenity": "clinic",
+        "name": "Homeo Dispensary, Old Vythiri"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0356761, 11.5420907] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7998651921,
+        "amenity": "clinic",
+        "name": "Dr Sithara Dileep, BHMS"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1093966, 11.5754096] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7998684099,
+        "amenity": "hospital",
+        "name": "Gov.Veterinary Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1308228, 11.5533112] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7998928255,
+        "amenity": "clinic",
+        "name": "District Public Health Lab"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2637764, 11.6589111] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 7999419714,
+        "amenity": "hospital",
+        "name": "Arogyakeralam Wayanad"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0902421, 11.6350234] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002063737,
+        "amenity": "hospital",
+        "name": "FWC pathiripalam"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.199665, 11.6667264] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002086957,
+        "amenity": "hospital",
+        "name": "FWC Subcentre Vadakkanad"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2870642, 11.7225297] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002140187,
+        "amenity": "hospital",
+        "name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9764405, 11.7758548] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002197728,
+        "amenity": "hospital",
+        "name": "FWC Kallupadi"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1504468, 11.6331248] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002214129,
+        "amenity": "hospital",
+        "name": "Sub Centre, Pakkam"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1475642, 11.6161527] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002235743,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Vazhavatta"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1581686, 11.6213793] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002264433,
+        "amenity": "hospital",
+        "name": "Pariyaram Sub Center"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1007962, 11.6478902] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002434909,
+        "amenity": "hospital",
+        "name": "Appad Sub center"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1754739, 11.6935542] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002448926,
+        "amenity": "hospital",
+        "name": "choothupara sub center"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1615233, 11.702407] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002453948,
+        "amenity": "hospital",
+        "name": "Choothupara Sub center"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1615394, 11.7024098] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8002648770,
+        "amenity": "hospital",
+        "name": "Cheerankunnu Sub center"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1598316, 11.6544507] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8011947653,
+        "amenity": "hospital",
+        "name": "Chennalode Veterinary hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9998208, 11.6550037] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8011983293,
+        "amenity": "hospital",
+        "name": "Chennalode public health Center"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9982437, 11.6580717] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8012168567,
+        "amenity": "hospital",
+        "name": "Kenichira Sub Centre"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1503024, 11.7240632] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8013356130,
+        "amenity": "hospital",
+        "name": "Sreedhar Memorial Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2126408, 11.5507106] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8013418462,
+        "amenity": "hospital",
+        "name": "Sreedhar Memorial Medical Center"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2126748, 11.5504743] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8018297411,
+        "amenity": "hospital",
+        "name": "SC Valavayal"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1922766, 11.7109561] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8018297440,
+        "amenity": "hospital",
+        "name": "SC Thazhamunda"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1395959, 11.706229] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8018349822,
+        "amenity": "hospital",
+        "name": "SC Chempakapetta"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.121234, 11.7166678] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8018374444,
+        "amenity": "hospital",
+        "name": "SC Irulam"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1880983, 11.7520755] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8023766112,
+        "amenity": "hospital",
+        "name": "sc adikolly"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1946156, 11.7812693] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8024080356,
+        "amenity": "hospital",
+        "name": "sc kalloorkunnu"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2074948, 11.7051065] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8024669741,
+        "amenity": "hospital",
+        "name": "SC Valanchery"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1793239, 11.7318176] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8024678991,
+        "amenity": "hospital",
+        "name": "SC Vakery"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2211972, 11.6959112] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8027321857,
+        "amenity": "hospital",
+        "name": "SC Pazhupathoor"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2277039, 11.6775156] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8027378116,
+        "amenity": "hospital",
+        "name": "SC Pazhery"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2719607, 11.7002666] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8111067792,
+        "amenity": "hospital",
+        "name": "SC MARAKKADAVU"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1963376, 11.8627883] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8111144222,
+        "amenity": "hospital",
+        "name": "SC CHAAMAPPARA"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.208879, 11.8364194] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8111164694,
+        "amenity": "hospital",
+        "name": "SC SASIMALA"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2000466, 11.8138333] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8111192513,
+        "amenity": "hospital",
+        "name": null
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1466817, 11.8164218] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8659041915,
+        "amenity": "hospital",
+        "name": "Homeo Dispensary, Madakkimala"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0840482, 11.6650298] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8665665729,
+        "amenity": "hospital",
+        "name": "Mother Medicare, Muttil"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1104419, 11.6414188] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8813483444,
+        "amenity": "clinic",
+        "name": "Government Homeo Clinic, Kenichira"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1530723, 11.723905] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8891745147,
+        "amenity": "clinic",
+        "name": "Ayurvedha Dispensary, Kolichal"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0279308, 11.5506371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8998387385,
+        "amenity": "hospital",
+        "name": "Community Health Centre Peria"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.8564181, 11.8356598] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8998387386,
+        "amenity": "hospital",
+        "name": "Family Health Centre Edavaka"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9637953, 11.7716399] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8998387387,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Mullankolly"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.1653784, 11.8205132] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8998387388,
+        "amenity": "hospital",
+        "name": "Family Health Centre Vengapally"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0333245, 11.6303539] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8998387389,
+        "amenity": "hospital",
+        "name": "Family Health Centre Vazhavatta"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.143777, 11.6004629] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 8998387390,
+        "amenity": "hospital",
+        "name": "Family Health Centre Noolpuzha"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.3284577, 11.6618891] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 9000365107,
+        "amenity": "hospital",
+        "name": "WIMS Urban Health Center Kalpetta"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0824983, 11.6099469] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 9104912146,
+        "amenity": "clinic",
+        "name": "D CARE DENTAL CLINIC"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0729729, 11.7397935] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 9218305772,
+        "amenity": "hospital",
+        "name": "Primary Health Centre, Mooppainad"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2040551, 11.5477549] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 9265949059,
+        "amenity": "hospital",
+        "name": "Government Ayurvedic Dispensary, Padinjarathara"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9827352, 11.6940867] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 9299016251,
+        "amenity": "clinic",
+        "name": "Government Homeo Dispensary"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.9748701, 11.6852566] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 9364738996,
+        "amenity": "hospital",
+        "name": "Mooppainad Govt Ayurveda Dispensary"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2043937, 11.5484] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10019840472,
+        "amenity": "clinic",
+        "name": "dental clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [75.8820726, 11.7441061] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10052779601,
+        "amenity": "clinic",
+        "name": "Dental Clinic"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2640567, 11.6683945] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10097528057,
+        "amenity": "hospital",
+        "name": "Government Taluk Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2575774, 11.6627489] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10113293168,
+        "amenity": "hospital",
+        "name": "District Early Intervention Centre"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0895455, 11.6342526] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10113293169,
+        "amenity": "hospital",
+        "name": "Medical Superintendent Office"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.0897041, 11.6342351] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10113779000,
+        "amenity": "hospital",
+        "name": "Government General Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.084177, 11.6035906] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10115778049,
+        "amenity": "hospital",
+        "name": "IQRAA Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.262376, 11.6657932] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "node",
+        "id": 10115878875,
+        "amenity": "hospital",
+        "name": "Anupama Hospital"
+      },
+      "geometry": { "type": "Point", "coordinates": [76.2578711, 11.6616927] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "relation",
+        "id": 11317341,
+        "amenity": "hospital",
+        "name": "st sholastica hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9047114, 11.7388908],
+            [75.9047066, 11.7389477],
+            [75.904713, 11.7389638],
+            [75.9047291, 11.7389753],
+            [75.9047482, 11.7389796],
+            [75.9047683, 11.7389747],
+            [75.9047787, 11.7389632],
+            [75.9047834, 11.7389487],
+            [75.9048083, 11.738952],
+            [75.9048025, 11.7389832],
+            [75.9049316, 11.739006],
+            [75.9049372, 11.7389756],
+            [75.9049696, 11.7389813],
+            [75.904976, 11.7389466],
+            [75.9049412, 11.7389405],
+            [75.9049448, 11.7389212],
+            [75.9049729, 11.7389262],
+            [75.9050378, 11.7385739],
+            [75.9050005, 11.7385673],
+            [75.9050316, 11.7383982],
+            [75.9050714, 11.7384052],
+            [75.9050805, 11.7383561],
+            [75.9050294, 11.738347],
+            [75.9050427, 11.738275],
+            [75.9051841, 11.7382999],
+            [75.9051919, 11.7382575],
+            [75.9050577, 11.7382338],
+            [75.905064, 11.7381995],
+            [75.9049677, 11.7381825],
+            [75.9049249, 11.7384149],
+            [75.904859, 11.7384033],
+            [75.9048498, 11.7384533],
+            [75.9047673, 11.7384387],
+            [75.9046849, 11.7388862],
+            [75.9047114, 11.7388908]
+          ],
+          [
+            [75.9048662, 11.7385753],
+            [75.9049348, 11.738587],
+            [75.9048817, 11.7388842],
+            [75.9048131, 11.7388725],
+            [75.9048662, 11.7385753]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 253268857,
+        "amenity": "hospital",
+        "name": "Community Health Center Porunnanore"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0046647, 11.7511282],
+            [76.0047227, 11.7510238],
+            [76.0049603, 11.7511503],
+            [76.0049023, 11.7512547],
+            [76.0046647, 11.7511282]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 257315153,
+        "amenity": "hospital",
+        "name": "Jyothi Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0008702, 11.7992647],
+            [76.0010906, 11.799118],
+            [76.0009585, 11.7989279],
+            [76.0009278, 11.7989484],
+            [76.000905, 11.7989155],
+            [76.0007619, 11.7990108],
+            [76.0008255, 11.7991024],
+            [76.000779, 11.7991334],
+            [76.0008702, 11.7992647]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 258580159,
+        "amenity": "hospital",
+        "name": "St. Joseph's Mission Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0061691, 11.8013223],
+            [76.0061285, 11.8016254],
+            [76.006164, 11.8016502],
+            [76.0061437, 11.8019532],
+            [76.0061437, 11.8020029],
+            [76.006702, 11.8020178],
+            [76.0070623, 11.8017048],
+            [76.0069405, 11.8012726],
+            [76.0061691, 11.8013223]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 380933351,
+        "amenity": "hospital",
+        "name": "DM Wayanad Institute of Medical Sciences"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1604679, 11.5585442],
+            [76.1603148, 11.5584603],
+            [76.1600411, 11.5588683],
+            [76.1603696, 11.5591108],
+            [76.1609312, 11.5601507],
+            [76.1609169, 11.5603046],
+            [76.1608741, 11.5603885],
+            [76.1607694, 11.5604212],
+            [76.1605028, 11.5604398],
+            [76.160322, 11.5605144],
+            [76.1601459, 11.5606543],
+            [76.1600554, 11.5608082],
+            [76.1599031, 11.5612092],
+            [76.1598365, 11.5616196],
+            [76.1598841, 11.5622585],
+            [76.1600108, 11.5626946],
+            [76.1600175, 11.5629056],
+            [76.1598425, 11.5632617],
+            [76.1597819, 11.5634595],
+            [76.1597887, 11.5636706],
+            [76.1600445, 11.5638684],
+            [76.1600916, 11.5640003],
+            [76.1600781, 11.5643214],
+            [76.1626755, 11.5642886],
+            [76.1627765, 11.5630158],
+            [76.1626143, 11.5627257],
+            [76.1624858, 11.562264],
+            [76.162443, 11.5620402],
+            [76.162443, 11.5616858],
+            [76.1625191, 11.5613687],
+            [76.1626429, 11.5612194],
+            [76.1630618, 11.5609256],
+            [76.1631855, 11.5607018],
+            [76.1633188, 11.5598111],
+            [76.1619956, 11.5594054],
+            [76.1616481, 11.5593588],
+            [76.1605617, 11.5586087],
+            [76.1604679, 11.5585442]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 386991359,
+        "amenity": "hospital",
+        "name": "Fatima Mata Mission Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0781649, 11.6142455],
+            [76.0785368, 11.615012],
+            [76.0787615, 11.6149032],
+            [76.0789578, 11.6151916],
+            [76.079637, 11.6148982],
+            [76.0794304, 11.6143631],
+            [76.0793516, 11.6141383],
+            [76.0792677, 11.6140027],
+            [76.0790146, 11.6136839],
+            [76.0788332, 11.6138247],
+            [76.0784774, 11.6140532],
+            [76.0781649, 11.6142455]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 425744162,
+        "amenity": "hospital",
+        "name": "Vinayaka Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2533091, 11.6639462],
+            [76.2533764, 11.6639932],
+            [76.2534399, 11.6639989],
+            [76.2535033, 11.6639028],
+            [76.2537448, 11.664035],
+            [76.2538652, 11.6638235],
+            [76.2539668, 11.663835],
+            [76.2540447, 11.6637757],
+            [76.2540662, 11.6636781],
+            [76.254053, 11.6635988],
+            [76.2540252, 11.6635339],
+            [76.2541572, 11.6634433],
+            [76.2540476, 11.6633171],
+            [76.2540245, 11.663255],
+            [76.2539437, 11.6633152],
+            [76.2538456, 11.663238],
+            [76.2537418, 11.6633397],
+            [76.2535514, 11.6634056],
+            [76.2534533, 11.6634904],
+            [76.2533745, 11.6637202],
+            [76.2533091, 11.6639462]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 425744233,
+        "amenity": "hospital",
+        "name": "Assumption Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2530081, 11.6627892],
+            [76.2533386, 11.6627866],
+            [76.253382, 11.6625912],
+            [76.2534531, 11.6623895],
+            [76.2530417, 11.6623007],
+            [76.2530081, 11.6627892]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 545995107,
+        "amenity": "hospital",
+        "name": "Saint Marys Mission Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2648122, 11.6640192],
+            [76.2650571, 11.6639121],
+            [76.2651725, 11.6641549],
+            [76.265675, 11.6641752],
+            [76.2656844, 11.6643387],
+            [76.2653658, 11.6643558],
+            [76.2650251, 11.6643292],
+            [76.2648122, 11.6640192]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 545998909,
+        "amenity": "hospital",
+        "name": "Vythiri Taluk Head Quarters Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0404077, 11.5509485],
+            [76.0412032, 11.5509283],
+            [76.0411808, 11.5510894],
+            [76.0410422, 11.5517267],
+            [76.0404316, 11.5517503],
+            [76.0403927, 11.5516745],
+            [76.0403543, 11.5515379],
+            [76.0403172, 11.5514071],
+            [76.040239, 11.5511792],
+            [76.0402173, 11.551102],
+            [76.0403403, 11.5510608],
+            [76.0404077, 11.5509485]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 546099334,
+        "amenity": "hospital",
+        "name": "Dr Appukkuttan Memorial Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2606238, 11.6627444],
+            [76.2608579, 11.6628906],
+            [76.260939, 11.6627662],
+            [76.2608583, 11.6627158],
+            [76.2611747, 11.6622297],
+            [76.2610215, 11.662134],
+            [76.2606238, 11.6627444]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 656485890,
+        "amenity": "hospital",
+        "name": "Kripa Health Care"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.8619566, 11.7422066],
+            [75.8620858, 11.7422291],
+            [75.862081, 11.7421483],
+            [75.8619637, 11.7421355],
+            [75.8619566, 11.7422066]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 763029796,
+        "amenity": "hospital",
+        "name": "Communinty Health Centre Meppadi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.130917, 11.5584764],
+            [76.1307898, 11.5584993],
+            [76.1307571, 11.5585199],
+            [76.1307603, 11.558607],
+            [76.1306772, 11.5586162],
+            [76.1306571, 11.5584573],
+            [76.130696, 11.5584507],
+            [76.1306933, 11.558431],
+            [76.1307281, 11.5584244],
+            [76.1307188, 11.5583824],
+            [76.1306584, 11.5583942],
+            [76.1306155, 11.5581997],
+            [76.1308904, 11.5581708],
+            [76.1309239, 11.5582628],
+            [76.1308797, 11.5582812],
+            [76.1308998, 11.5583784],
+            [76.130917, 11.5584764]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 798756818,
+        "amenity": "hospital",
+        "name": "Primary Health Center Mullankolly"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1794341, 11.8465302],
+            [76.1795824, 11.8466212],
+            [76.1796012, 11.8465918],
+            [76.1796154, 11.8466005],
+            [76.1796604, 11.8465301],
+            [76.1795792, 11.8464803],
+            [76.179498, 11.8464305],
+            [76.1794341, 11.8465302]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 798809158,
+        "amenity": "hospital",
+        "name": "Govt. Taluk Head Quarters Hospital, Sulthan Bathery"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.264089, 11.6579344],
+            [76.2630106, 11.6579103],
+            [76.2630262, 11.6589173],
+            [76.2637487, 11.6589376],
+            [76.2638645, 11.6589408],
+            [76.264158, 11.6589678],
+            [76.264089, 11.6579344]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799281118,
+        "amenity": "hospital",
+        "name": "Community Health Centre Panamaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0701938, 11.7384455],
+            [76.070251, 11.7382877],
+            [76.0706545, 11.738306],
+            [76.0706356, 11.7383941],
+            [76.0706031, 11.738591],
+            [76.0705678, 11.7386338],
+            [76.0699479, 11.738632],
+            [76.0699439, 11.7384296],
+            [76.0701938, 11.7384455]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799281364,
+        "amenity": "hospital",
+        "name": "Community Health Centre Peria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.8846542, 11.8411885],
+            [75.884683, 11.8408944],
+            [75.8845445, 11.8408971],
+            [75.8845388, 11.8409718],
+            [75.8844455, 11.8409635],
+            [75.8844455, 11.8410203],
+            [75.8843494, 11.8410175],
+            [75.8843438, 11.8410618],
+            [75.8843, 11.8410618],
+            [75.8843, 11.8411226],
+            [75.8843494, 11.8411157],
+            [75.8843466, 11.8411572],
+            [75.8844851, 11.841153],
+            [75.8844809, 11.8411807],
+            [75.8845346, 11.8411766],
+            [75.8845318, 11.8411932],
+            [75.8846542, 11.8411885]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799282620,
+        "amenity": "hospital",
+        "name": "Community Health Centre, Meppady"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2098022, 11.6203478],
+            [76.2098042, 11.620234],
+            [76.2098941, 11.6202355],
+            [76.2098945, 11.6202152],
+            [76.209794, 11.6202134],
+            [76.2097954, 11.6201359],
+            [76.2099773, 11.6201391],
+            [76.2099757, 11.6202302],
+            [76.2100311, 11.6202312],
+            [76.2100303, 11.6202716],
+            [76.2100004, 11.6202711],
+            [76.2099989, 11.6203512],
+            [76.2098022, 11.6203478]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799283331,
+        "amenity": "hospital",
+        "name": "Community Health Centre, Pulpally"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1622096, 11.7827137],
+            [76.1620903, 11.782599],
+            [76.1622786, 11.7823922],
+            [76.1624209, 11.7825294],
+            [76.1622096, 11.7827137]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799290259,
+        "amenity": "hospital",
+        "name": "Government Tribal Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9809951, 11.7558067],
+            [75.98103, 11.75551],
+            [75.9813465, 11.7555257],
+            [75.9813518, 11.7554811],
+            [75.9814806, 11.7554969],
+            [75.9814618, 11.755657],
+            [75.981325, 11.7556334],
+            [75.9813223, 11.7556938],
+            [75.9815235, 11.7557122],
+            [75.981494, 11.7558487],
+            [75.9813223, 11.7558304],
+            [75.9813277, 11.7557883],
+            [75.9811399, 11.7557778],
+            [75.9811238, 11.7558172],
+            [75.9809951, 11.7558067]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799292382,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Vellamunda"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9558296, 11.7049264],
+            [75.9558581, 11.704842],
+            [75.9560338, 11.7048988],
+            [75.9560053, 11.7049832],
+            [75.9558296, 11.7049264]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799292778,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Cheeral"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.3160357, 11.6107125],
+            [76.3159461, 11.6106286],
+            [76.3160547, 11.6105173],
+            [76.316043, 11.6105064],
+            [76.3161346, 11.6104126],
+            [76.3162359, 11.6105075],
+            [76.3160357, 11.6107125]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799294053,
+        "amenity": "hospital",
+        "name": "Main Center, PHC  Vazhavatta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1582311, 11.6214931],
+            [76.1582288, 11.6214303],
+            [76.1582969, 11.6214262],
+            [76.158375, 11.6214215],
+            [76.1583727, 11.621492],
+            [76.1582311, 11.6214931]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799300185,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Kurukanmoola"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0630001, 11.8263959],
+            [76.0629841, 11.8263757],
+            [76.0629554, 11.8263391],
+            [76.062936, 11.8263146],
+            [76.0630698, 11.8262399],
+            [76.0631319, 11.8263335],
+            [76.0630001, 11.8263959]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799300187,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Begur"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0671903, 11.8496372],
+            [76.0672034, 11.8494774],
+            [76.0673965, 11.8494925],
+            [76.0673834, 11.8496524],
+            [76.0671903, 11.8496372]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799300978,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Varadoor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1023534, 11.7141087],
+            [76.1022929, 11.7141088],
+            [76.1022928, 11.713995],
+            [76.1023534, 11.7139949],
+            [76.1023534, 11.7141087]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799300979,
+        "amenity": "hospital",
+        "name": "Family Health  Centre Pozhuthana"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0215451, 11.587661],
+            [76.0215424, 11.5875297],
+            [76.0218857, 11.5874508],
+            [76.0219072, 11.5875822],
+            [76.0216368, 11.587641],
+            [76.0215451, 11.587661]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799303359,
+        "amenity": "hospital",
+        "name": "Primary Health Centre, Kappukunnu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9733051, 11.6752159],
+            [75.973317, 11.6750615],
+            [75.9734684, 11.6750727],
+            [75.9734552, 11.6752436],
+            [75.9734055, 11.67524],
+            [75.9733954, 11.6752646],
+            [75.9733517, 11.6752614],
+            [75.9733549, 11.6752196],
+            [75.9733051, 11.6752159]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799303360,
+        "amenity": "hospital",
+        "name": "Primary Health Center Pakkom"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0941143, 11.8042907],
+            [76.0940821, 11.8041384],
+            [76.094286, 11.8041043],
+            [76.0943021, 11.8042592],
+            [76.0941143, 11.8042907]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 799306963,
+        "amenity": "hospital",
+        "name": "Family Health Centre Appapara"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0324043, 11.9077658],
+            [76.032494, 11.907793],
+            [76.0325478, 11.9076669],
+            [76.0324565, 11.9076333],
+            [76.0324043, 11.9077658]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 803336736,
+        "amenity": "hospital",
+        "name": "homeo hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1630916, 11.7830884],
+            [76.1631235, 11.7831808],
+            [76.1632013, 11.7831334],
+            [76.1631682, 11.7830484],
+            [76.1630916, 11.7830884]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 804086142,
+        "amenity": "hospital",
+        "name": "DM WIMS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1610128, 11.5609161],
+            [76.1611484, 11.5605668],
+            [76.1613839, 11.5599674],
+            [76.1624988, 11.5600611],
+            [76.1620607, 11.5616207],
+            [76.1610128, 11.5609161]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 804086144,
+        "amenity": "hospital",
+        "name": "DM WIMS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1601188, 11.5620857],
+            [76.1605971, 11.5617995],
+            [76.1610791, 11.5626544],
+            [76.1605789, 11.5628905],
+            [76.1601188, 11.5620857]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 804135039,
+        "amenity": "hospital",
+        "name": "CHC pulpally"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1649065, 11.79446],
+            [76.1649873, 11.7944821],
+            [76.1651263, 11.7944916],
+            [76.1651166, 11.7943777],
+            [76.1652588, 11.7943904],
+            [76.1652523, 11.7945486],
+            [76.1653105, 11.794596],
+            [76.1653881, 11.7945866],
+            [76.1654075, 11.7944252],
+            [76.1654495, 11.7942765],
+            [76.1654592, 11.7942068],
+            [76.16554, 11.7942132],
+            [76.1655659, 11.7942068],
+            [76.1655659, 11.7941341],
+            [76.1655659, 11.7939853],
+            [76.1655659, 11.7938841],
+            [76.1653978, 11.7939189],
+            [76.165401, 11.7938619],
+            [76.1654528, 11.7938271],
+            [76.1654495, 11.7937575],
+            [76.1654204, 11.7936721],
+            [76.1652944, 11.7936689],
+            [76.1652168, 11.7937069],
+            [76.1652006, 11.7937828],
+            [76.1651136, 11.7937898],
+            [76.1650422, 11.793786],
+            [76.1649642, 11.7937755],
+            [76.1649, 11.7937702],
+            [76.1648644, 11.7937638],
+            [76.1648662, 11.7938422],
+            [76.1648547, 11.7939505],
+            [76.1648774, 11.7940739],
+            [76.1648871, 11.79421],
+            [76.1649291, 11.794248],
+            [76.1649226, 11.7943524],
+            [76.1649065, 11.79446]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 804180240,
+        "amenity": "hospital",
+        "name": "hml hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1464108, 11.5562432],
+            [76.1459178, 11.5563564],
+            [76.1458022, 11.5557639],
+            [76.1462413, 11.5555337],
+            [76.1464108, 11.5562432]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 827554972,
+        "amenity": "hospital",
+        "name": "Ayush Ayurveda Hospital, Parakkal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1015882, 11.63747],
+            [76.101773, 11.6374741],
+            [76.1017756, 11.6373585],
+            [76.1015908, 11.6373544],
+            [76.1015882, 11.63747]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 827554976,
+        "amenity": "clinic",
+        "name": "Vythiri Clinic, Vythiri"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0392403, 11.5534304],
+            [76.0393327, 11.5534322],
+            [76.0393347, 11.5533373],
+            [76.0392423, 11.5533355],
+            [76.0392403, 11.5534304]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 827554999,
+        "amenity": "hospital",
+        "name": "Santhigiri Ayurveda & Siddha Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0789177, 11.5974191],
+            [76.0790132, 11.5975667],
+            [76.0793127, 11.5973372],
+            [76.0792172, 11.5971941],
+            [76.0789177, 11.5974191]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 846674090,
+        "amenity": "hospital",
+        "name": "Community Health Centre Thariyode"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9957065, 11.6554812],
+            [75.9960345, 11.6554144],
+            [75.9960027, 11.6552645],
+            [75.9956747, 11.6553314],
+            [75.9957065, 11.6554812]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 857068370,
+        "amenity": "hospital",
+        "name": "Noolpuzha Family Health Centre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.3181414, 11.6671408],
+            [76.3182449, 11.6671002],
+            [76.3182985, 11.6672309],
+            [76.3184104, 11.667187],
+            [76.318462, 11.6673128],
+            [76.3182464, 11.6673975],
+            [76.3181414, 11.6671408]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858007565,
+        "amenity": "hospital",
+        "name": "Homoeo Dispensary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2638957, 11.6587577],
+            [76.2638955, 11.6589676],
+            [76.264158, 11.6589678],
+            [76.2641582, 11.6587579],
+            [76.2638957, 11.6587577]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858054200,
+        "amenity": "hospital",
+        "name": "Family Health Centre Ambalavayal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2091442, 11.6203788],
+            [76.2091469, 11.620034],
+            [76.209776, 11.6200387],
+            [76.2097733, 11.6203836],
+            [76.2091442, 11.6203788]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858178631,
+        "amenity": "hospital",
+        "name": "Family Health Center, Vengapally"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0402231, 11.6494919],
+            [76.0402661, 11.6494025],
+            [76.0403214, 11.6494097],
+            [76.0403518, 11.6493093],
+            [76.040095, 11.6492437],
+            [76.0400551, 11.6493277],
+            [76.0401036, 11.6493514],
+            [76.0400956, 11.6493767],
+            [76.0400769, 11.6494354],
+            [76.0402231, 11.6494919]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858387958,
+        "amenity": "hospital",
+        "name": "FWC Subcentre Muthanga"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.3579916, 11.6737252],
+            [76.3579624, 11.6736619],
+            [76.3580243, 11.6736429],
+            [76.3580597, 11.6737053],
+            [76.3579916, 11.6737252]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858389223,
+        "amenity": "hospital",
+        "name": "FWC Karassery"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2957436, 11.6796338],
+            [76.2957409, 11.6795557],
+            [76.2958314, 11.6795662],
+            [76.2958301, 11.6796325],
+            [76.2957436, 11.6796338]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858390002,
+        "amenity": "hospital",
+        "name": "FWC Kalloor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.3341916, 11.6640182],
+            [76.3341262, 11.6640056],
+            [76.3341367, 11.6639198],
+            [76.3342184, 11.6639244],
+            [76.3341916, 11.6640182]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858393681,
+        "amenity": "hospital",
+        "name": "Sub Centre, Kallupadi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1503825, 11.6331044],
+            [76.150405, 11.6330767],
+            [76.1505128, 11.6331147],
+            [76.1504795, 11.6332051],
+            [76.1503609, 11.6331633],
+            [76.1503825, 11.6331044]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858401734,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Chulliode"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2561221, 11.5974038],
+            [76.2562318, 11.5975038],
+            [76.2561718, 11.597567],
+            [76.2560621, 11.5974669],
+            [76.2561221, 11.5974038]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858420863,
+        "amenity": "hospital",
+        "name": "Family Welfare Centre Nambiyarkunnu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.3151172, 11.5876365],
+            [76.3152059, 11.5875175],
+            [76.3152666, 11.5874901],
+            [76.3153694, 11.5875633],
+            [76.315234, 11.5877097],
+            [76.3151172, 11.5876365]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858420864,
+        "amenity": "hospital",
+        "name": "health  centre nambiyarkunne"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.3151172, 11.5876365],
+            [76.3152059, 11.5875175],
+            [76.3152448, 11.5874814],
+            [76.3153694, 11.5875633],
+            [76.315234, 11.5877097],
+            [76.3151172, 11.5876365]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858422810,
+        "amenity": "hospital",
+        "name": "health centre mundakolly"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.3232624, 11.6168992],
+            [76.3233294, 11.6168434],
+            [76.3233894, 11.6167996],
+            [76.3234575, 11.6169221],
+            [76.3234809, 11.6169769],
+            [76.3233752, 11.6170694],
+            [76.3233559, 11.6170824],
+            [76.323238, 11.6169181],
+            [76.3232624, 11.6168992]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858424596,
+        "amenity": "hospital",
+        "name": "health centre thazhathoor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2851908, 11.6104673],
+            [76.2851029, 11.6104983],
+            [76.2850329, 11.6105322],
+            [76.2850691, 11.6105971],
+            [76.2851114, 11.6106461],
+            [76.2852323, 11.6106024],
+            [76.2851908, 11.6104673]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858426743,
+        "amenity": "hospital",
+        "name": "PILAKAVU SUB CENTER"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9921088, 11.8415248],
+            [75.9922373, 11.8415179],
+            [75.9922419, 11.841351],
+            [75.9921204, 11.841351],
+            [75.9921088, 11.8415248]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858428478,
+        "amenity": "hospital",
+        "name": "KUZHINILAM SUB CENTER"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9862516, 11.8197595],
+            [75.9862493, 11.8196818],
+            [75.9863661, 11.8196864],
+            [75.9863474, 11.8197687],
+            [75.9862516, 11.8197595]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 858429155,
+        "amenity": "hospital",
+        "name": "ONDAYANGADY SUB CENTER"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0277528, 11.8242916],
+            [76.0277812, 11.8242359],
+            [76.0279177, 11.8242818],
+            [76.0278864, 11.8243389],
+            [76.0277528, 11.8242916]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 859161613,
+        "amenity": "hospital",
+        "name": "Sub helth center"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0066001, 11.6370978],
+            [76.0066204, 11.6370515],
+            [76.0065798, 11.6370167],
+            [76.0065748, 11.6369654],
+            [76.0065038, 11.637025],
+            [76.0065139, 11.637073],
+            [76.006542, 11.6371184],
+            [76.0066001, 11.6370978]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 859558129,
+        "amenity": "hospital",
+        "name": "Kenichira Sub Centre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.150253, 11.7240221],
+            [76.150337, 11.7240175],
+            [76.1503242, 11.7240872],
+            [76.150253, 11.7240884],
+            [76.150253, 11.7240221]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860325239,
+        "amenity": "hospital",
+        "name": "sc valavayal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1922212, 11.7110215],
+            [76.1923665, 11.7109723],
+            [76.1923553, 11.7108849],
+            [76.1922158, 11.7109006],
+            [76.1921997, 11.7109427],
+            [76.1922212, 11.7110215]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860329423,
+        "amenity": "hospital",
+        "name": "SC Chempakapetta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1212554, 11.7167177],
+            [76.1212796, 11.7166441],
+            [76.1211857, 11.7166074],
+            [76.1211669, 11.7167045],
+            [76.1212554, 11.7167177]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860331857,
+        "amenity": "hospital",
+        "name": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1395383, 11.7062999],
+            [76.1396509, 11.706254],
+            [76.1396161, 11.706162],
+            [76.13949, 11.7062211],
+            [76.1395383, 11.7062999]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860333431,
+        "amenity": "hospital",
+        "name": "SC Irulam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1880849, 11.7521254],
+            [76.1881252, 11.7520729],
+            [76.1880822, 11.7520335],
+            [76.1880286, 11.7520834],
+            [76.1880849, 11.7521254]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860340465,
+        "amenity": "hospital",
+        "name": "sc cheeyambam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1995292, 11.7539412],
+            [76.1995444, 11.7539402],
+            [76.1995735, 11.7539385],
+            [76.1995627, 11.7539057],
+            [76.1995118, 11.753911],
+            [76.1995292, 11.7539412]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860902908,
+        "amenity": "hospital",
+        "name": "SC Adikolly"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1946022, 11.7812988],
+            [76.1946666, 11.7812922],
+            [76.1946572, 11.7812292],
+            [76.1945928, 11.7812148],
+            [76.1946022, 11.7812988]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860906533,
+        "amenity": "hospital",
+        "name": "SC Vandikkadavu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2049605, 11.7851115],
+            [76.2052394, 11.7848804],
+            [76.2051642, 11.7848141],
+            [76.2050249, 11.7846914],
+            [76.2047631, 11.7848636],
+            [76.2049605, 11.7851115]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860934054,
+        "amenity": "hospital",
+        "name": "SC Kaloorkunnu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2075077, 11.7051675],
+            [76.2075635, 11.7051107],
+            [76.2075056, 11.7050414],
+            [76.207424, 11.7050981],
+            [76.2075077, 11.7051675]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860993726,
+        "amenity": "hospital",
+        "name": "SC Vakery"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2211844, 11.6959462],
+            [76.2212533, 11.6959062],
+            [76.2212074, 11.6958512],
+            [76.2211538, 11.6958862],
+            [76.2211844, 11.6959462]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 860996205,
+        "amenity": "hospital",
+        "name": "SC  Valanchery"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1792617, 11.7318281],
+            [76.179326, 11.7318638],
+            [76.1793561, 11.7318008],
+            [76.179311, 11.7317567],
+            [76.1792617, 11.7318281]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 861277413,
+        "amenity": "hospital",
+        "name": "SC kuppady"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2635969, 11.6935243],
+            [76.2636548, 11.6934619],
+            [76.2635597, 11.6933772],
+            [76.2634896, 11.6933247],
+            [76.2633899, 11.6934509],
+            [76.2635254, 11.693499],
+            [76.2635969, 11.6935243]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 861281559,
+        "amenity": "hospital",
+        "name": "S C Pazhery"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2719428, 11.7002908],
+            [76.2719852, 11.7002849],
+            [76.2719852, 11.7002463],
+            [76.2719397, 11.7002404],
+            [76.2719428, 11.7002908]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 861293104,
+        "amenity": "hospital",
+        "name": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2373901, 11.6486174],
+            [76.2374277, 11.6486202],
+            [76.2374268, 11.6485918],
+            [76.2373939, 11.648588],
+            [76.2373901, 11.6486174]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 861294471,
+        "amenity": "hospital",
+        "name": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2276644, 11.6775504],
+            [76.2277196, 11.6775722],
+            [76.2277591, 11.6774628],
+            [76.2276907, 11.677446],
+            [76.2276644, 11.6775504]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 861296080,
+        "amenity": "hospital",
+        "name": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.2652687, 11.6936485],
+            [76.2653136, 11.6936524],
+            [76.2653215, 11.6935724],
+            [76.2652797, 11.6935684],
+            [76.2652687, 11.6936485]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 870708184,
+        "amenity": "hospital",
+        "name": "SC IRIPPOOD"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1645201, 11.8459351],
+            [76.1645709, 11.8459392],
+            [76.1646311, 11.8459441],
+            [76.1646465, 11.8458024],
+            [76.164551, 11.8457873],
+            [76.1645346, 11.8458659],
+            [76.1645201, 11.8459351]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 870723847,
+        "amenity": "hospital",
+        "name": "SC CHAAMAPPARA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.208938, 11.836481],
+            [76.2088567, 11.8364731],
+            [76.2088059, 11.8362721],
+            [76.2088933, 11.8362542],
+            [76.208938, 11.836481]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 870728917,
+        "amenity": "hospital",
+        "name": "SC PALAKOLLY"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1466964, 11.8164245],
+            [76.1467501, 11.8164074],
+            [76.1467326, 11.816351],
+            [76.146679, 11.8163759],
+            [76.1466964, 11.8164245]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 933786989,
+        "amenity": "hospital",
+        "name": "Community Health Center"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1676319, 11.664643],
+            [76.1677049, 11.6647144],
+            [76.1677821, 11.6647859],
+            [76.1678722, 11.6648754],
+            [76.1679216, 11.6649279],
+            [76.1679645, 11.664951],
+            [76.1680203, 11.6649805],
+            [76.168104, 11.6649574],
+            [76.1682735, 11.6648775],
+            [76.1683057, 11.6648355],
+            [76.1683486, 11.6647997],
+            [76.1683679, 11.6646316],
+            [76.1684009, 11.6645192],
+            [76.1684237, 11.6644719],
+            [76.1684259, 11.6644257],
+            [76.1680611, 11.6642513],
+            [76.1678293, 11.6641567],
+            [76.167662, 11.6641105],
+            [76.1676276, 11.6642134],
+            [76.1676228, 11.6643289],
+            [76.1676289, 11.6644622],
+            [76.1676307, 11.6645559],
+            [76.1676319, 11.664643]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 934316104,
+        "amenity": "hospital",
+        "name": "Swami Vivekananda Medical Mission Hospital, Ambukuthi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1104455, 11.6376836],
+            [76.1109007, 11.6377004],
+            [76.1109162, 11.6372939],
+            [76.110461, 11.6372772],
+            [76.1104455, 11.6376836]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 934389240,
+        "amenity": "hospital",
+        "name": "Government Ayurvedic Hospital, Kumbalad"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.101871, 11.6715607],
+            [76.1019893, 11.6716142],
+            [76.1020334, 11.6715208],
+            [76.1019151, 11.6714673],
+            [76.101871, 11.6715607]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 934407017,
+        "amenity": "hospital",
+        "name": "Sub Centre, kumbalad"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0998486, 11.6774569],
+            [76.0999271, 11.6774614],
+            [76.0999307, 11.6774003],
+            [76.0998523, 11.6773958],
+            [76.0998486, 11.6774569]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 934414248,
+        "amenity": "hospital",
+        "name": "Sub Centre, Panangandi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1216648, 11.670952],
+            [76.1217725, 11.6709096],
+            [76.1217424, 11.6708362],
+            [76.1216347, 11.6708786],
+            [76.1216648, 11.670952]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 934419495,
+        "amenity": "hospital",
+        "name": "Sub Centre, Pariyaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1008349, 11.6486678],
+            [76.1009053, 11.648664],
+            [76.1008964, 11.6485046],
+            [76.1008261, 11.6485083],
+            [76.1008349, 11.6486678]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 937060171,
+        "amenity": "hospital",
+        "name": "Primary Health Center, Vazhavatta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1580987, 11.621296],
+            [76.1580942, 11.6215164],
+            [76.1584012, 11.621512],
+            [76.1584012, 11.6214054],
+            [76.1582373, 11.6214084],
+            [76.1582462, 11.6212872],
+            [76.1580987, 11.621296]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 941428317,
+        "amenity": "hospital",
+        "name": "Family Health Centre Kottathara"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.011008, 11.6665864],
+            [76.011008, 11.6662736],
+            [76.011008, 11.6661438],
+            [76.0112453, 11.6661237],
+            [76.0113912, 11.6661559],
+            [76.0113552, 11.6663631],
+            [76.0112535, 11.6664566],
+            [76.0112546, 11.6665069],
+            [76.0112299, 11.6665683],
+            [76.0111549, 11.6666337],
+            [76.0110532, 11.6666347],
+            [76.0110111, 11.6666297],
+            [76.011008, 11.6665864]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 943157219,
+        "amenity": "clinic",
+        "name": "ASA Clinic Vellamunda"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.9543222, 11.7302376],
+            [75.9544445, 11.7302544],
+            [75.954436, 11.7301073],
+            [75.9545239, 11.729977],
+            [75.9544102, 11.7299266],
+            [75.9543072, 11.7300653],
+            [75.9543222, 11.7302376]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 952104319,
+        "amenity": "hospital",
+        "name": "Family Health Center, Poothadi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1487383, 11.7255295],
+            [76.1483856, 11.7257002],
+            [76.1482287, 11.725523],
+            [76.1482005, 11.7254954],
+            [76.1481268, 11.7253549],
+            [76.1480932, 11.7252866],
+            [76.1481697, 11.7252459],
+            [76.1481362, 11.725154],
+            [76.1482408, 11.7251054],
+            [76.148226, 11.7250739],
+            [76.1483387, 11.7250174],
+            [76.148395, 11.7251395],
+            [76.1485613, 11.7250844],
+            [76.1487383, 11.7255295]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 959081869,
+        "amenity": "hospital",
+        "name": "Primary Health Centre Sugandhagiri"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0030098, 11.5505374],
+            [76.0030715, 11.5507082],
+            [76.0028542, 11.5507818],
+            [76.002806, 11.5506215],
+            [76.0030098, 11.5505374]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 960661790,
+        "amenity": "hospital",
+        "name": "District Hospital Mananthavady"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0004058, 11.8005707],
+            [76.0004219, 11.8007414],
+            [76.0006445, 11.8008438],
+            [76.0008457, 11.8009278],
+            [76.0009932, 11.8008359],
+            [76.0010066, 11.800702],
+            [76.0010764, 11.800597],
+            [76.0011568, 11.8005654],
+            [76.0013794, 11.8005838],
+            [76.0015645, 11.8005366],
+            [76.0016477, 11.8006153],
+            [76.0017308, 11.800786],
+            [76.0018783, 11.8007807],
+            [76.0019829, 11.8007309],
+            [76.0019347, 11.8005707],
+            [76.0018622, 11.8004027],
+            [76.0019642, 11.8003423],
+            [76.0019964, 11.8002766],
+            [76.00194, 11.8001191],
+            [76.0015618, 11.8002556],
+            [76.0014301, 11.8001897],
+            [76.0012976, 11.8000501],
+            [76.0011088, 11.799916],
+            [76.0009148, 11.7998136],
+            [76.0008399, 11.7998342],
+            [76.0007434, 11.7999764],
+            [76.0005932, 11.80021],
+            [76.0004243, 11.8004857],
+            [76.0004058, 11.8005707]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 962260845,
+        "amenity": "hospital",
+        "name": "Chyavana Ayur Retreat Ayurveda Hospital Thekkumthara"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0391072, 11.6476171],
+            [76.0390903, 11.6472814],
+            [76.0395526, 11.6472649],
+            [76.0395598, 11.6476219],
+            [76.0391072, 11.6476171]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 963941293,
+        "amenity": "hospital",
+        "name": "Sub Center , Karinkutty"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0616703, 11.6598595],
+            [76.0615548, 11.6595483],
+            [76.0616954, 11.6594936],
+            [76.0618051, 11.6598105],
+            [76.0616703, 11.6598595]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 979742626,
+        "amenity": "clinic",
+        "name": "Ellumandam health centre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.961068, 11.7858197],
+            [75.96109, 11.785721],
+            [75.9612837, 11.7857593],
+            [75.9612536, 11.7858748],
+            [75.9611045, 11.7858391],
+            [75.961068, 11.7858197]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 982240822,
+        "amenity": "hospital",
+        "name": "Community Health Centre Panamaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0699856, 11.7386139],
+            [76.0699837, 11.7385093],
+            [76.0702023, 11.7385211],
+            [76.0701973, 11.7386168],
+            [76.0699856, 11.7386139]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 995800480,
+        "amenity": "hospital",
+        "name": "Sub Center, Chundakkara"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0651904, 11.68183],
+            [76.0655198, 11.6818529],
+            [76.0655395, 11.6815812],
+            [76.0652101, 11.6815583],
+            [76.0651904, 11.68183]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1017372482,
+        "amenity": "hospital",
+        "name": "PHC Tholpetty"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.064213, 11.9465951],
+            [76.0644168, 11.9466634],
+            [76.0644951, 11.9464991],
+            [76.0643894, 11.9464815],
+            [76.0643951, 11.9464345],
+            [76.0642885, 11.9464095],
+            [76.064213, 11.9465951]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1080463555,
+        "amenity": "hospital",
+        "name": "Homeo Dispensary Pallimukku"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.072534, 11.6885678],
+            [76.0725172, 11.6884294],
+            [76.0725973, 11.6884201],
+            [76.072614, 11.6885585],
+            [76.072534, 11.6885678]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1083550599,
+        "amenity": "hospital",
+        "name": "Subcenter,Pallimukku"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0784558, 11.6827446],
+            [76.0785717, 11.682794],
+            [76.0786071, 11.6827142],
+            [76.0784912, 11.6826649],
+            [76.0784558, 11.6827446]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1084062616,
+        "amenity": "hospital",
+        "name": "Family Health Center, Varadhoor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1058451, 11.6998925],
+            [76.105432, 11.6996708],
+            [76.1056596, 11.699244],
+            [76.1058595, 11.6993454],
+            [76.105821, 11.6994102],
+            [76.1061233, 11.6995635],
+            [76.1059173, 11.6999244],
+            [76.1058451, 11.6998925]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1085335079,
+        "amenity": "hospital",
+        "name": "Subcenter,Arimula"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1277142, 11.6896978],
+            [76.1277167, 11.6896035],
+            [76.1277872, 11.6896053],
+            [76.1277847, 11.6896996],
+            [76.1277142, 11.6896978]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1085335086,
+        "amenity": "hospital",
+        "name": "Government Eye hospital, kariyambadi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.1330944, 11.6828672],
+            [76.1326989, 11.682516],
+            [76.1329296, 11.6820509],
+            [76.1331642, 11.6821477],
+            [76.1332437, 11.6820092],
+            [76.1337089, 11.6822559],
+            [76.1331855, 11.6829356],
+            [76.1330944, 11.6828672]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1085548107,
+        "amenity": "hospital",
+        "name": "Subcentre, Koodothummal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0917435, 11.7225818],
+            [76.0917458, 11.7225332],
+            [76.0918369, 11.7225375],
+            [76.0918345, 11.7225861],
+            [76.0917435, 11.7225818]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1085552516,
+        "amenity": "hospital",
+        "name": "Sneha palliative care"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0832877, 11.6909433],
+            [76.0833166, 11.69086],
+            [76.0834036, 11.6908889],
+            [76.0833747, 11.6909722],
+            [76.0832877, 11.6909433]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1097620007,
+        "amenity": "hospital",
+        "name": "Community Health Centre Panamaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0704429, 11.7386239],
+            [76.0704479, 11.7384483],
+            [76.0705176, 11.7384492],
+            [76.0705165, 11.7384995],
+            [76.070589, 11.7385026],
+            [76.0705853, 11.738585],
+            [76.0705185, 11.7385821],
+            [76.0705165, 11.7386271],
+            [76.0704429, 11.7386239]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1097620008,
+        "amenity": "hospital",
+        "name": "Community Health Centre Panamaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.070318, 11.7386139],
+            [76.0703194, 11.7385666],
+            [76.0704193, 11.7385745],
+            [76.070418, 11.7386185],
+            [76.070318, 11.7386139]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1097620009,
+        "amenity": "hospital",
+        "name": "Community Health Centre Panamaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0702438, 11.7385281],
+            [76.0702573, 11.7384269],
+            [76.0704204, 11.7384457],
+            [76.0704086, 11.7385447],
+            [76.0702438, 11.7385281]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1097620010,
+        "amenity": "hospital",
+        "name": "Community Health Centre Panamaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0700076, 11.7384941],
+            [76.0700119, 11.7384448],
+            [76.0701808, 11.7384589],
+            [76.0701764, 11.7385083],
+            [76.0700076, 11.7384941]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1097620798,
+        "amenity": "hospital",
+        "name": "Community Health Centre Panamaram"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0702992, 11.7383809],
+            [76.0703039, 11.7383066],
+            [76.0706301, 11.738326],
+            [76.0706255, 11.7384002],
+            [76.0705075, 11.7383932],
+            [76.0705043, 11.7384443],
+            [76.0704308, 11.7384399],
+            [76.070434, 11.7383889],
+            [76.0702992, 11.7383809]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1184388392,
+        "amenity": "hospital",
+        "name": "madayikkal hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0566056, 11.7805541],
+            [76.0568325, 11.7805158],
+            [76.0567699, 11.7803474],
+            [76.0565665, 11.780378],
+            [76.056504, 11.7804086],
+            [76.0566056, 11.7805541]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "element": "way",
+        "id": 1335881647,
+        "amenity": "hospital",
+        "name": "H M L Hospital"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.0140046, 11.5841038],
+            [76.0142514, 11.5833287],
+            [76.0145304, 11.5833996],
+            [76.0147691, 11.5838857],
+            [76.0142863, 11.5841774],
+            [76.0140046, 11.5841038]
+          ]
+        ]
+      }
+    }
+  ]
 }

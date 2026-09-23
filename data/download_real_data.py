@@ -2,6 +2,7 @@ import os
 import requests
 import geopandas as gpd
 
+
 DATA_RAW = "data/raw"
 os.makedirs(DATA_RAW, exist_ok=True)
 

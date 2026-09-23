@@ -7,7 +7,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 import pulp
-from shapely.geometry import LineString
+from shapely.geometry import LineString, Point, shape, mapping
+from engines.road_routing import road_route
 
 app = FastAPI(
     title="Multi-Hazard Relocation Intelligence Platform",
@@ -79,7 +80,13 @@ def get_relocation_flows():
     if not os.path.exists(FLOWS_FILE):
         raise HTTPException(status_code=404, detail="Relocation flow layer not generated.")
     with open(FLOWS_FILE, "r") as f:
-        return json.load(f)
+        flows = json.load(f)
+    for feature in flows.get("features", []):
+        geometry = shape(feature["geometry"])
+        if geometry.geom_type == "LineString" and len(geometry.coords) >= 2:
+            source, destination = Point(geometry.coords[0]), Point(geometry.coords[-1])
+            feature["geometry"] = mapping(road_route(source, destination))
+    return flows
 
 @app.get("/api/plan")
 def get_relocation_plan():
@@ -177,7 +184,7 @@ def run_simulation(params: ScenarioParams):
         for j in J:
             moved = int(x[(i, j)].varValue or 0)
             if moved > 0:
-                line = LineString([reloc_sources.loc[i].geometry.centroid, safe_destinations.loc[j].geometry.centroid])
+                line = road_route(reloc_sources.loc[i].geometry.centroid, safe_destinations.loc[j].geometry.centroid)
                 dynamic_flows.append({
                     "geometry": line,
                     "from_cell": reloc_sources.loc[i, "cell_id"],

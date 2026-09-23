@@ -1,74 +1,32 @@
 [
   {
-    "source_id": "WAY_HEX_0136",
-    "target_site": "SAFE_SITE_007",
-    "population_moved": 596,
-    "distance_km": 40.52
-  },
-  {
-    "source_id": "WAY_HEX_0136",
-    "target_site": "SAFE_SITE_010",
-    "population_moved": 830,
-    "distance_km": 32.67
-  },
-  {
-    "source_id": "WAY_HEX_0187",
+    "source_id": "WAY_HEX_0114",
     "target_site": "SAFE_SITE_000",
-    "population_moved": 872,
-    "distance_km": 48.97
+    "population_moved": 1637,
+    "distance_km": 49.67
   },
   {
-    "source_id": "WAY_HEX_0214",
-    "target_site": "SAFE_SITE_007",
-    "population_moved": 1231,
-    "distance_km": 52.41
+    "source_id": "WAY_HEX_0114",
+    "target_site": "SAFE_SITE_015",
+    "population_moved": 1238,
+    "distance_km": 45.58
   },
   {
-    "source_id": "WAY_HEX_0253",
-    "target_site": "SAFE_SITE_017",
-    "population_moved": 704,
-    "distance_km": 47.67
+    "source_id": "WAY_HEX_0114",
+    "target_site": "SAFE_SITE_014",
+    "population_moved": 475,
+    "distance_km": 49.49
   },
   {
-    "source_id": "WAY_HEX_0253",
-    "target_site": "SAFE_SITE_010",
-    "population_moved": 709,
-    "distance_km": 38.36
+    "source_id": "WAY_HEX_0114",
+    "target_site": "SAFE_SITE_033",
+    "population_moved": 2116,
+    "distance_km": 42.44
   },
   {
-    "source_id": "WAY_HEX_0285",
-    "target_site": "SAFE_SITE_026",
-    "population_moved": 895,
-    "distance_km": 36.42
-  },
-  {
-    "source_id": "WAY_HEX_0285",
-    "target_site": "SAFE_SITE_025",
-    "population_moved": 454,
-    "distance_km": 38.49
-  },
-  {
-    "source_id": "WAY_HEX_0299",
-    "target_site": "SAFE_SITE_026",
-    "population_moved": 174,
-    "distance_km": 31.18
-  },
-  {
-    "source_id": "WAY_HEX_0299",
-    "target_site": "SAFE_SITE_036",
-    "population_moved": 1252,
-    "distance_km": 19.83
-  },
-  {
-    "source_id": "WAY_HEX_0311",
-    "target_site": "SAFE_SITE_017",
-    "population_moved": 1033,
-    "distance_km": 47.94
-  },
-  {
-    "source_id": "WAY_HEX_0311",
-    "target_site": "SAFE_SITE_026",
-    "population_moved": 428,
-    "distance_km": 42.65
+    "source_id": "WAY_HEX_0114",
+    "target_site": "SAFE_SITE_032",
+    "population_moved": 1345,
+    "distance_km": 41.52
   }
 ]

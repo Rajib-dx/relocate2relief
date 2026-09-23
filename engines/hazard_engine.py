@@ -49,5 +49,4 @@ output_path = os.path.join(DATA_PROCESSED, "wayanad_hazard_layer.gpkg")
 gdf.to_file(output_path, layer="hazard_cells", driver="GPKG")
 
 print(f"Hazard Engine complete. Summary Statistics:")
-print(f"Max Hazard: {gdf['hazard_score'].max()} | Min: {gdf['hazard_score'].min()} | Mean: {gdf['hazard_score'].mean():.2f}")
 print(f"Saved layer to: {output_path}")

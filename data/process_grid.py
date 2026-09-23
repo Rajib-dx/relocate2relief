@@ -2,7 +2,7 @@ import os
 import numpy as np
 import geopandas as gpd
 from shapely.geometry import Polygon
-
+ 
 DATA_RAW = "data/raw"
 DATA_PROCESSED = "data/processed"
 os.makedirs(DATA_PROCESSED, exist_ok=True)
