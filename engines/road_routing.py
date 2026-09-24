@@ -4,6 +4,7 @@ import os
 
 import geopandas as gpd
 import networkx as nx
+from scipy.spatial import cKDTree
 from shapely.geometry import LineString, Point
 
 ROAD_FILE = "data/raw/wayanad_roads.geojson"
@@ -30,24 +31,44 @@ def _road_graph():
     return graph if graph.number_of_edges() else None
 
 
-def road_route(source, destination):
+@lru_cache(maxsize=1)
+def _road_node_index():
+    graph = _road_graph()
+    if graph is None:
+        return None
+    nodes = list(graph.nodes)
+    return nodes, cKDTree(nodes)
+
+
+@lru_cache(maxsize=4096)
+def _cached_route(source_coords, destination_coords):
     """Return a WGS84 route following the road graph, with endpoint access links.
 
     If local road data is unavailable or disconnected, retain the direct line so
     map rendering and simulations continue to work.
     """
+    source = Point(source_coords)
+    destination = Point(destination_coords)
     fallback = LineString([source, destination])
-    graph = _road_graph()
-    if graph is None:
+    node_index = _road_node_index()
+    if node_index is None:
         return fallback
 
     points = gpd.GeoSeries([source, destination], crs="EPSG:4326").to_crs(ROUTE_CRS)
     projected = list(points)
-    nodes = list(graph.nodes)
-    nearest = [min(nodes, key=lambda node: Point(node).distance(point)) for point in projected]
+    nodes, node_tree = node_index
+    nearest_indexes = node_tree.query([(point.x, point.y) for point in projected])[1]
+    nearest = [nodes[int(index)] for index in nearest_indexes]
     try:
-        path = nx.shortest_path(graph, nearest[0], nearest[1], weight="weight")
+        path = nx.shortest_path(_road_graph(), nearest[0], nearest[1], weight="weight")
     except (nx.NetworkXNoPath, nx.NodeNotFound):
         return fallback
     coords = [projected[0], *(Point(node) for node in path), projected[1]]
     return gpd.GeoSeries([LineString(coords)], crs=ROUTE_CRS).to_crs("EPSG:4326").iloc[0]
+
+
+def road_route(source, destination):
+    return _cached_route(
+        (round(source.x, 6), round(source.y, 6)),
+        (round(destination.x, 6), round(destination.y, 6)),
+    )

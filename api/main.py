@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 import pulp
-from shapely.geometry import LineString, Point, shape, mapping
+from shapely.geometry import Point
 from engines.road_routing import road_route
 
 app = FastAPI(
@@ -80,13 +80,7 @@ def get_relocation_flows():
     if not os.path.exists(FLOWS_FILE):
         raise HTTPException(status_code=404, detail="Relocation flow layer not generated.")
     with open(FLOWS_FILE, "r") as f:
-        flows = json.load(f)
-    for feature in flows.get("features", []):
-        geometry = shape(feature["geometry"])
-        if geometry.geom_type == "LineString" and len(geometry.coords) >= 2:
-            source, destination = Point(geometry.coords[0]), Point(geometry.coords[-1])
-            feature["geometry"] = mapping(road_route(source, destination))
-    return flows
+        return json.load(f)
 
 @app.get("/api/plan")
 def get_relocation_plan():
