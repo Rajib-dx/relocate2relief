@@ -125,7 +125,6 @@ const map = L.map('map').setView([11.70, 76.08], 11);
     });
 
     fetch(`${API_BASE}/layers/risk`).then(r => r.json()).then(renderRiskGrid);
-    fetch(`${API_BASE}/layers/relocation-flows`).then(r => r.json()).then(renderFlowVectors);
 
     fetch(`${API_BASE}/layers/safe-sites`).then(r => r.json()).then(data => {
         L.geoJSON(data, {
