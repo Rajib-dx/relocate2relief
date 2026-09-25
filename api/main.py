@@ -25,7 +25,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_PROCESSED = "data/processed"
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_PROCESSED = os.path.join(PROJECT_ROOT, "data", "processed")
 RISK_FILE = os.path.join(DATA_PROCESSED, "wayanad_risk_layer.gpkg")
 SAFE_FILE = os.path.join(DATA_PROCESSED, "wayanad_safe_sites.gpkg")
 FLOWS_FILE = os.path.join(DATA_PROCESSED, "wayanad_relocation_flows.geojson")
@@ -202,7 +203,7 @@ def run_simulation(params: ScenarioParams):
     }
 @app.get("/", response_class=FileResponse)
 def serve_dashboard():
-    dashboard_path = os.path.join("frontend", "index.html")
+    dashboard_path = os.path.join(PROJECT_ROOT, "frontend", "index.html")
     if not os.path.exists(dashboard_path):
         raise HTTPException(status_code=404, detail="Dashboard index.html not found.")
     return FileResponse(dashboard_path)
