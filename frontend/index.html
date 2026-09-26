@@ -28,13 +28,38 @@
         .legend { margin-top: 10px; border-top: 1px solid #e2e8f0; padding-top: 8px; font-size: 11px; }
         .legend-row { display: flex; align-items: center; margin-bottom: 4px; }
         .legend-color { width: 12px; height: 12px; margin-right: 8px; border-radius: 2px; }
+        .menu-toggle { display: none; }
+        .sim-spinner {
+            display: inline-block; width: 15px; height: 15px; margin-right: 8px;
+            border: 2px solid rgba(255,255,255,.45); border-top-color: #fff;
+            border-radius: 50%; vertical-align: -3px; animation: sim-spin .7s linear infinite;
+        }
+        @keyframes sim-spin { to { transform: rotate(360deg); } }
+        @media (max-width: 700px) {
+            .menu-toggle {
+                display: block; position: absolute; top: 12px; right: 12px; z-index: 1100;
+                width: 46px; height: 46px; padding: 0; border-radius: 8px;
+                background: #fff; color: #0f172a; box-shadow: 0 2px 12px rgba(0,0,0,.2);
+                font-size: 25px; line-height: 1;
+            }
+            .dashboard-panel {
+                display: none; top: 68px; right: 12px; left: 12px; width: auto;
+                max-height: calc(100vh - 88px); overflow-y: auto; box-sizing: border-box;
+                padding: 14px 16px;
+            }
+            .dashboard-panel.is-open { display: block; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .sim-spinner { animation-duration: 1.5s; }
+        }
     </style>
 </head>
 <body>
 
 <div id="map"></div>
 
-<div class="dashboard-panel">
+<button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open relocation controls" aria-expanded="false" aria-controls="dashboard-panel">☰</button>
+<div class="dashboard-panel" id="dashboard-panel">
     <h2>Relocation Intelligence</h2>
     <p class="sub">Study Region: Wayanad, Kerala</p>
     
@@ -76,6 +101,15 @@ const map = L.map('map').setView([11.70, 76.08], 11);
     // Dedicated LayerGroups for live-updating
     const riskLayerGroup = L.layerGroup().addTo(map);
     const flowsLayerGroup = L.layerGroup().addTo(map);
+    const dashboardPanel = document.getElementById('dashboard-panel');
+    const menuToggle = document.getElementById('menu-toggle');
+
+    menuToggle.addEventListener('click', () => {
+        const isOpen = dashboardPanel.classList.toggle('is-open');
+        menuToggle.setAttribute('aria-expanded', String(isOpen));
+        menuToggle.setAttribute('aria-label', isOpen ? 'Close relocation controls' : 'Open relocation controls');
+        menuToggle.textContent = isOpen ? '×' : '☰';
+    });
 
     function getRiskColor(score) {
         if (score >= 80) return '#dc2626';
@@ -146,7 +180,8 @@ const map = L.map('map').setView([11.70, 76.08], 11);
     function triggerSimulation() {
         const mult = parseFloat(rainSlider.value);
         const btn = document.getElementById('sim-btn');
-        btn.innerText = "Re-solving Optimization...";
+        btn.innerHTML = '<span class="sim-spinner" aria-hidden="true"></span><span>Running simulation…</span>';
+        btn.setAttribute('aria-busy', 'true');
         btn.disabled = true;
 
         fetch(`${API_BASE}/simulate`, {
@@ -154,11 +189,11 @@ const map = L.map('map').setView([11.70, 76.08], 11);
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({ rain_multiplier: mult, hazard_weight: 0.50, capacity_buffer: 1.0 })
         })
-        .then(r => r.json())
+        .then(r => {
+            if (!r.ok) throw new Error('Simulation request failed (' + r.status + ')');
+            return r.json();
+        })
         .then(res => {
-            btn.innerText = "Simulate Hazard Surge";
-            btn.disabled = false;
-            
             document.getElementById('red-zones').innerText = res.critical_cells;
             document.getElementById('pop-risk').innerText = res.newly_displaced_population.toLocaleString();
             
@@ -167,9 +202,12 @@ const map = L.map('map').setView([11.70, 76.08], 11);
             renderFlowVectors(res.flows_geojson);
         })
         .catch(err => {
-            btn.innerText = "Simulate Hazard Surge";
-            btn.disabled = false;
             console.error("Simulation failed:", err);
+        })
+        .finally(() => {
+            btn.textContent = "Simulate Hazard Surge";
+            btn.removeAttribute('aria-busy');
+            btn.disabled = false;
         });
     }
 </script>
