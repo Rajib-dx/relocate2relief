@@ -39,10 +39,10 @@
     <p class="sub">Study Region: Wayanad, Kerala</p>
     
     <div class="stat-grid">
-        <div class="stat-box"><div class="val" id="pop-risk">...</div><div class="label">Displaced Pop</div></div>
-        <div class="stat-box"><div class="val" id="safe-cap">...</div><div class="label">Safe Capacity</div></div>
-        <div class="stat-box"><div class="val" id="red-zones">...</div><div class="label">Critical Cells</div></div>
-        <div class="stat-box"><div class="val" id="safe-sites">...</div><div class="label">Safe Sites</div></div>
+        <div class="stat-box"><div class="val" id="pop-risk">--</div><div class="label">Displaced Pop</div></div>
+        <div class="stat-box"><div class="val" id="safe-cap">--</div><div class="label">Safe Capacity</div></div>
+        <div class="stat-box"><div class="val" id="red-zones">--</div><div class="label">Critical Cells</div></div>
+        <div class="stat-box"><div class="val" id="safe-sites">--</div><div class="label">Safe Sites</div></div>
     </div>
 
     <div class="control-group">
@@ -76,6 +76,7 @@ const map = L.map('map').setView([11.70, 76.08], 11);
     // Dedicated LayerGroups for live-updating
     const riskLayerGroup = L.layerGroup().addTo(map);
     const flowsLayerGroup = L.layerGroup().addTo(map);
+    const safeSitesLayerGroup = L.layerGroup().addTo(map);
 
     function getRiskColor(score) {
         if (score >= 80) return '#dc2626';
@@ -116,25 +117,16 @@ const map = L.map('map').setView([11.70, 76.08], 11);
         }).addTo(flowsLayerGroup);
     }
 
-    // Initial base state
-    fetch(`${API_BASE}/summary`).then(r => r.json()).then(data => {
-        document.getElementById('pop-risk').innerText = data.population_at_critical_risk.toLocaleString();
-        document.getElementById('safe-cap').innerText = data.total_safe_capacity.toLocaleString();
-        document.getElementById('red-zones').innerText = data.critical_red_zones;
-        document.getElementById('safe-sites').innerText = data.candidate_safe_sites;
-    });
-
-    fetch(`${API_BASE}/layers/risk`).then(r => r.json()).then(renderRiskGrid);
-
-    fetch(`${API_BASE}/layers/safe-sites`).then(r => r.json()).then(data => {
-        L.geoJSON(data, {
+    function renderSafeSites(geojsonData) {
+        safeSitesLayerGroup.clearLayers();
+        L.geoJSON(geojsonData, {
             style: { fillColor: '#10b981', weight: 2, color: '#047857', fillOpacity: 0.65 },
             onEachFeature: (f, l) => {
                 const p = f.properties;
                 l.bindPopup(`<b>${p.site_id}</b><br/>Suitability: ${p.suitability_score}/100<br/>Carrying Cap: ${p.carrying_capacity} persons`);
             }
-        }).addTo(map);
-    });
+        }).addTo(safeSitesLayerGroup);
+    }
 
     const rainSlider = document.getElementById('rain-slider');
     rainSlider.addEventListener('input', (e) => {
@@ -160,10 +152,13 @@ const map = L.map('map').setView([11.70, 76.08], 11);
             
             document.getElementById('red-zones').innerText = res.critical_cells;
             document.getElementById('pop-risk').innerText = res.newly_displaced_population.toLocaleString();
+            document.getElementById('safe-cap').innerText = res.total_safe_capacity.toLocaleString();
+            document.getElementById('safe-sites').innerText = res.candidate_safe_sites;
             
             // Simultaneously recolor cells AND redraw re-optimized flow corridors
             renderRiskGrid(res.risk_geojson);
             renderFlowVectors(res.flows_geojson);
+            renderSafeSites(res.safe_geojson);
         })
         .catch(err => {
             btn.innerText = "Simulate Hazard Surge";

@@ -197,9 +197,12 @@ def run_simulation(params: ScenarioParams):
         "status": "simulation_complete",
         "critical_cells": critical_count,
         "newly_displaced_population": displaced_est,
+        "candidate_safe_sites": len(safe_gdf),
+        "total_safe_capacity": int(safe_gdf["carrying_capacity"].sum()),
         "average_risk": round(float(gdf["risk_score"].mean()), 2),
         "risk_geojson": json.loads(gdf.to_json()),
-        "flows_geojson": json.loads(flows_gdf.to_json())
+        "flows_geojson": json.loads(flows_gdf.to_json()),
+        "safe_geojson": json.loads(safe_gdf.to_json())
     }
 @app.get("/", response_class=FileResponse)
 def serve_dashboard():
